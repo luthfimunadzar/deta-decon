@@ -1,0 +1,74 @@
+/* Font */
+@font-face {font-family: "Museo 300";
+    src: url("font/3dff389b16a0d83f925a7dbd2cacd392.eot"); /* IE9*/
+    src: url("font/3dff389b16a0d83f925a7dbd2cacd392.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("font/3dff389b16a0d83f925a7dbd2cacd392.woff2") format("woff2"), /* chrome、firefox */
+    url("font/3dff389b16a0d83f925a7dbd2cacd392.woff") format("woff"), /* chrome、firefox */
+    url("font/3dff389b16a0d83f925a7dbd2cacd392.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("font/3dff389b16a0d83f925a7dbd2cacd392.svg#Museo 300") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "Museo 500";
+    src: url("font/e6755c61e4b34db0f5b601568967e143.eot"); /* IE9*/
+    src: url("font/e6755c61e4b34db0f5b601568967e143.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("font/e6755c61e4b34db0f5b601568967e143.woff2") format("woff2"), /* chrome、firefox */
+    url("font/e6755c61e4b34db0f5b601568967e143.woff") format("woff"), /* chrome、firefox */
+    url("font/e6755c61e4b34db0f5b601568967e143.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("font/e6755c61e4b34db0f5b601568967e143.svg#Museo 500") format("svg"); /* iOS 4.1- */
+  }
+
+@font-face {font-family: "Museo 700";
+    src: url("font/dc579f9739403ae5d95bb441a0b69082.eot"); /* IE9*/
+    src: url("font/dc579f9739403ae5d95bb441a0b69082.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("font/dc579f9739403ae5d95bb441a0b69082.woff2") format("woff2"), /* chrome、firefox */
+    url("font/dc579f9739403ae5d95bb441a0b69082.woff") format("woff"), /* chrome、firefox */
+    url("font/dc579f9739403ae5d95bb441a0b69082.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("font/dc579f9739403ae5d95bb441a0b69082.svg#Museo 700") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "Suisse Int'l Book";
+    src: url("font/17241fb9c2ffb3ec11eba762e771435f.eot"); /* IE9*/
+    src: url("font/17241fb9c2ffb3ec11eba762e771435f.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("font/17241fb9c2ffb3ec11eba762e771435f.woff2") format("woff2"), /* chrome、firefox */
+    url("font/17241fb9c2ffb3ec11eba762e771435f.woff") format("woff"), /* chrome、firefox */
+    url("font/17241fb9c2ffb3ec11eba762e771435f.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("font/17241fb9c2ffb3ec11eba762e771435f.svg#Suisse Int'l Book") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "Suisse Int'l Medium";
+    src: url("font/501e03d4c0303f394033bcaf435f4b3e.eot"); /* IE9*/
+    src: url("font/501e03d4c0303f394033bcaf435f4b3e.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("font/501e03d4c0303f394033bcaf435f4b3e.woff2") format("woff2"), /* chrome、firefox */
+    url("font/501e03d4c0303f394033bcaf435f4b3e.woff") format("woff"), /* chrome、firefox */
+    url("font/501e03d4c0303f394033bcaf435f4b3e.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("font/501e03d4c0303f394033bcaf435f4b3e.svg#Suisse Int'l Medium") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "Suisse Int'l Bold";
+    src: url("font/8e52b05f6b6c1a65b0c49c8286f690b2.eot"); /* IE9*/
+    src: url("font/8e52b05f6b6c1a65b0c49c8286f690b2.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("font/8e52b05f6b6c1a65b0c49c8286f690b2.woff2") format("woff2"), /* chrome、firefox */
+    url("font/8e52b05f6b6c1a65b0c49c8286f690b2.woff") format("woff"), /* chrome、firefox */
+    url("font/8e52b05f6b6c1a65b0c49c8286f690b2.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("font/8e52b05f6b6c1a65b0c49c8286f690b2.svg#Suisse Int'l Bold") format("svg"); /* iOS 4.1- */
+}
+
+body{
+    font-family: "Suisse Int'l Book", sans-serif;
+    color: #3C3C3E;
+}
+  
+/* helpers */
+@import "helpers/variable.scss";
+@import "helpers/button.scss";
+@import "helpers/component.scss";
+
+/* layout */
+@import "layout/header.scss";
+@import "layout/footer.scss";
+
+/* per page */
+@import "pages/home.scss";
+@import "pages/project.scss";
+@import "pages/about.scss";
+@import "pages/contact.scss";

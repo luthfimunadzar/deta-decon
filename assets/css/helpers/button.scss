@@ -1,0 +1,62 @@
+.btn-primary{
+    padding: 12px 35px;
+    background-color: $sec;
+    border-color: $sec;
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: $b;
+    box-shadow: none !important;
+    &:hover, &:focus, &:active, &:disabled{
+        background-color: lighten($sec, 10%) !important;
+        border-color: lighten($sec, 10%) !important;
+        outline: none !important;
+    }
+}
+
+.btn-outline-primary{
+    padding: 12px 35px;
+    background-color: $wt;
+    color: $sec;
+    border-color: $sec;
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: $b;
+    box-shadow: none !important;
+    &:hover, &:focus, &:active, &:disabled{
+        background-color: lighten($sec, 10%) !important;
+        border-color: lighten($sec, 10%) !important;
+        outline: none !important;
+    }
+}
+
+.btn-secondary{
+    padding: 12px 20px;
+    background-color: #F7F7F7;
+    border-color: #F7F7F7;
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: $b;
+    color: rgba($color: #6F7287, $alpha: 0.4);
+    box-shadow: none !important;
+    &:hover, &:focus, &:active, &:disabled{
+        background-color: darken(#F7F7F7, 10%) !important;
+        border-color: darken(#F7F7F7, 10%) !important;
+        outline: none !important;
+    }
+}
+
+.btn-dark{
+    padding: 12px 20px;
+    background-color: #6F7287;
+    border-color: #6F7287;
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: $b;
+    color: $wt;
+    box-shadow: none !important;
+    &:hover, &:focus, &:active, &:disabled{
+        background-color: darken(#6F7287, 10%) !important;
+        border-color: darken(#6F7287, 10%) !important;
+        outline: none !important;
+    }
+}

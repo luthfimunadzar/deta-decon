@@ -1,0 +1,208 @@
+.carousel{
+    .carousel-item{
+        position: relative;
+        &::before{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1;
+            background-color: rgba($color: #333, $alpha: 0.7);
+        }
+        img{
+            @media screen and (max-width: 767px) { 
+                height: 350px;
+                object-fit: cover;
+            }
+        }
+        .carousel-caption{
+            z-index: 2;
+            bottom: auto;
+            top: 200px;
+            @media screen and (max-width: 1199px) { 
+                top: 100px;
+            }
+            @media screen and (max-width: 991px) { 
+                top: 80px;
+            }
+            h2{
+                font-family: $mb;
+                font-size: 55px;
+                margin: 0;
+                @media screen and (max-width: 1199px) { 
+                    font-size: 40px;    
+                }
+                @media screen and (max-width: 767px) { 
+                    font-size: 32px;    
+                }
+            }
+        }
+    }
+    .carousel-indicators{
+        bottom: 130px;
+        @media screen and (max-width: 991px) { 
+            bottom: 40px;
+        }
+        li{
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            border: 2px solid $wt;
+            background-color: transparent;
+            opacity: 1;
+            margin: 0 6px;
+            &.active{
+                background-color: $wt;
+            }
+        }
+    }
+}
+
+.masonry{
+    position: relative;
+    z-index: 3;
+    margin-top: -120px;
+    @media screen and (max-width: 991px) { 
+        margin-top: -40px;
+    }
+    @media screen and (max-width: 767px) { 
+        margin-top: -30px;
+    }
+    .box{
+        padding: 0 40px;
+        min-height: 327px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        @media screen and (max-width: 767px) { 
+            min-height: 250px;
+        }
+        h4{
+            font-size: 22px;
+            color: $wt;
+            margin-bottom: 40px;
+            @media screen and (max-width: 767px) { 
+                font-size: 18px;
+                margin-bottom: 30px;
+            }
+        }
+        .download{
+            color: $wt;
+            border: 2px solid $wt;
+            padding: 13px 70px;
+            border-radius: 35px;
+            font-size: 22px;
+            transition: all 0.3s ease;
+            @media screen and (max-width: 767px) { 
+                font-size: 18px;
+                padding: 10px 70px;
+            }
+            &:hover, &:focus{
+                background-color: $wt;
+                color: $pri;
+                text-decoration: none;
+            }
+        }
+        h3{
+            position: relative;
+            font-size: 30px;
+            font-family: $b;
+            color: $wt;
+            margin: 0;
+            z-index: 2;
+            @media screen and (max-width: 767px) { 
+                font-size: 24px;
+            }
+        }
+        p{
+            font-size: 19px;
+            color: $wt;
+            line-height: 1.7;
+            margin: 0;
+            @media screen and (max-width: 767px) { 
+                font-size: 16px;
+            }
+        }
+        &.red{
+            background-color: $pri;
+        }
+        &.yellow{
+            background-color: $sec;
+            position: relative;
+            &:before{
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                width: 0;
+                z-index: 1;
+                background-color: $pri;
+                transition: all 0.3s ease;
+            }
+            &:hover, &:focus{
+                &:before{
+                    width: 100%;
+                }
+            }
+        }
+        &.image{
+            min-height: 654px;
+            position: relative;
+            overflow: hidden;
+            @media screen and (max-width: 991px) { 
+                min-height: 327px;
+            }
+            @media screen and (max-width: 767px) { 
+                min-height: 250px;
+            }
+            .image-wrap{
+                position: absolute;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                background-size: cover;
+                background-position: center center;
+                transition: all 0.3s ease;
+            }
+            &:before{
+                content: "";
+                position: absolute;
+                z-index: 2;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                opacity: 0;
+                background-color: rgba($color: $pri, $alpha: 0.35);
+                transition: all 0.3s ease;
+            }
+            h4{
+                position: relative;
+                z-index: 3;
+                margin: 0;
+                opacity: 0;
+                transition: all 0.3s ease;
+            }
+            &:hover, &:focus{
+                &:before, h4{
+                    opacity: 1;
+                }
+                .image-wrap{
+                    transform: scale(1.1);
+                }
+            }
+            &.short{
+                min-height: 327px;
+                @media screen and (max-width: 767px) { 
+                    min-height: 250px;
+                }
+            }
+        }
+    }
+}
