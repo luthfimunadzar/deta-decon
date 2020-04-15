@@ -8,10 +8,10 @@
       <b-collapse id="nav-collapse" is-nav>
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
-          <b-nav-item href="#">Home</b-nav-item>
-          <b-nav-item href="#">Project</b-nav-item>
-          <b-nav-item href="#">About</b-nav-item>
-          <b-nav-item href="#">Contact Us</b-nav-item>
+          <b-nav-item to="/">Home</b-nav-item>
+          <b-nav-item to="/project">Project</b-nav-item>
+          <b-nav-item to="/about">About</b-nav-item>
+          <b-nav-item to="/contact">Contact Us</b-nav-item>
           <b-nav-form>
             <b-form-input size="sm"></b-form-input>
             <!-- <b-button size="sm" class="my-2 my-sm-0" type="submit">Search</b-button> -->

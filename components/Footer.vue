@@ -13,7 +13,7 @@
           <p>Jl. Pondok Kelapa Raya, Duren Sawit,</p>
           <p>Jakarta – 13450, Indonesia.</p>
         </b-col>
-        <b-col md="3" lg="5" class="text-center text-md-left">
+        <b-col md="3" lg="2" class="text-center text-md-left">
           <h4 class="mt-3 mt-md-0">Follow</h4>
           <a href="#" class="socmed"><i class="fab fa-facebook-f"></i></a>
           <a href="#" class="socmed"><i class="fab fa-twitter"></i></a>
