@@ -1,7 +1,7 @@
 <template>
   <div>    
     <Header />
-    
+
     <div class="opt-project">
         <b-container>
             <b-row>
@@ -168,6 +168,17 @@ export default {
 
       this.dataShow = tempSearch
     }
-  }
+  },
+  head () {
+    return {
+      title: 'Project | Deta Decon',
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        { hid: 'description', name: 'description', content: 'PT Deta Decon is a structural & civil consulting firm based in Jakarta, Indonesia. Founded in 1994, the 20-year old company has delivered excellence through the area of expertise in building structure, building skin, building performance, construction support services, property loss consulting and sustainability. ' },
+        { hid: 'og:title', name: 'og:title', content: 'Deta Decon' },
+        { hid: 'og:description', name: 'og:description', content: 'PT Deta Decon is a structural & civil consulting firm based in Jakarta, Indonesia. Founded in 1994, the 20-year old company has delivered excellence through the area of expertise in building structure, building skin, building performance, construction support services, property loss consulting and sustainability. ' },
+      ]
+    }
+  },
 }
 </script>
