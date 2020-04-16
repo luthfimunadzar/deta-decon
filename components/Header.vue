@@ -12,13 +12,33 @@
           <b-nav-item to="/project">Project</b-nav-item>
           <b-nav-item to="/about">About</b-nav-item>
           <b-nav-item to="/contact">Contact Us</b-nav-item>
-          <b-nav-form>
-            <b-form-input size="sm"></b-form-input>
-            <!-- <b-button size="sm" class="my-2 my-sm-0" type="submit">Search</b-button> -->
-          </b-nav-form>
+          <!-- <b-nav-form>
+            <form @submit.prevent="noop">
+              <b-form-input v-model="search" size="sm" @keyup.enter.native="onEnter"></b-form-input>
+            </form>
+          </b-nav-form> -->
         </b-navbar-nav>
       </b-collapse>
     </b-container>
   </b-navbar>
 </template>
 
+
+<script>
+
+export default {
+  data() {
+    return {
+      search: "",
+    }
+  },
+  methods: {
+    onEnter(){
+      this.$router.push({ path: `/project?search=${this.search}` })
+    },
+    noop () {
+      // do nothing ?
+    }
+  }
+}
+</script>
