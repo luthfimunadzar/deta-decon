@@ -9,13 +9,13 @@
       background="#73030D"
     >
       <b-carousel-slide img-src="/hero.jpg">
-        <h2>Architecture Planning and Design</h2>
+        <h2>Construction Management & Supervision</h2>
       </b-carousel-slide>
-      <b-carousel-slide img-src="/hero.jpg">
-        <h2>Architecture Planning and Design</h2>
+      <b-carousel-slide img-src="/hero2.png">
+        <h2>Architecture, Planning, and Design</h2>
       </b-carousel-slide>
-      <b-carousel-slide img-src="/hero.jpg">
-        <h2>Architecture Planning and Design</h2>
+      <b-carousel-slide img-src="/hero3.jpg">
+        <h2>Investigation & Building Audits</h2>
       </b-carousel-slide>
     </b-carousel>
 
@@ -27,7 +27,7 @@
               <b-col md="6">
                 <div class="box red">
                   <div>
-                    <h4>“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</h4>
+                    <h4>Download DETA DECON 2020 Company Profile</h4>
                     <a href="#" class="download">Download</a>
                   </div>
                 </div>
@@ -40,7 +40,7 @@
               <b-col md="12">
                 <div class="box image">
                   <div class="image-wrap" style="background-image: url('/home-2.jpg')"></div>
-                  <h4>DEDC IAIN Sulthan<br/>Thaha Saifuddin Jambi (2017)</h4>
+                  <h4>Management Construction<br/>Gelora Bung Karno (2017-2018)</h4>
                 </div>
               </b-col>
             </b-row>
@@ -50,7 +50,7 @@
               <b-col md="6" lg="12">
                 <div class="box image">
                   <div class="image-wrap" style="background-image: url('/home-4.jpg')"></div>
-                  <h4>Project Management and Supervision Consultant (PMSC) Sunan Ampel</h4>
+                  <h4>Management Construction, Design and Build<br/>Athletes Villages Kemayoran (2017-2018)</h4>
                 </div>
               </b-col>
               <b-col md="6" lg="12">
@@ -63,12 +63,12 @@
           <b-col md="4">
             <div class="box image short">
               <div class="image-wrap" style="background-image: url('/home-3.jpg')"></div>
-              <h4>Perencanaan Struktur Pembangunan Gedung Bank Indonesia Jakarta</h4>
+              <h4>Architectural, Planning, and Design<br/>UIN Sultan Thaha Jambi (2018)</h4>
             </div>
           </b-col>
           <b-col md="8">
             <div class="box red text-left">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p>PT Deta Decon is a structural & civil consulting firm based in Jakarta, Indonesia. Founded in 1994, the 26-year old company has delivered excellence through the area of expertise in building structure, building skin, building performance, construction support services, property loss consulting and sustainability. </p>
             </div>
           </b-col>
           <b-col md="4">
@@ -79,7 +79,7 @@
           <b-col md="8">
             <div class="box image short">
               <div class="image-wrap" style="background-image: url('/home-1.jpg')"></div>
-              <h4>Perencana Struktur Gedung Kelapa Gading Sport Plaza</h4>
+              <h4>and 100+ more resilient and gigantic structures all over Indonesia</h4>
             </div>
           </b-col>
         </b-row>

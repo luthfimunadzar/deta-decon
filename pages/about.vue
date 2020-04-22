@@ -5,103 +5,39 @@
     <div class="about-wrap">
       <b-container>
         <b-row>
-          <b-col md="12" lg="7">
+          <b-col lg="12">
             <div class="info">
-              <h4>Board</h4>
+              <h4>Who we are</h4>
 
-              <div class="board-item">
-                <span class="image" style="background-image: url('/profile.png')"></span>
-                <div class="text">
-                  <h5>Ir. Chairul Basri Nasution</h5>
-                  <h6>Direktur Utama</h6>
-                </div>
-              </div>
-              <div class="board-item">
-                <span class="image" style="background-image: url('/profile.png')"></span>
-                <div class="text">
-                  <h5>Ir. Mardiana Daoed</h5>
-                  <h6>Direktur</h6>
-                </div>
-              </div>
-              <div class="board-item">
-                <span class="image" style="background-image: url('/profile.png')"></span>
-                <div class="text">
-                  <h5>Ade Nurul Safrina, SE, MSc</h5>
-                  <h6>Komisaris</h6>
-                </div>
-              </div>
+              <p>We are a collective of engineers, developers, architects, and planners working together to build a better future. Our firm, Deta Decon, is responsible for some of the Indonesia's most technically and environmentally advanced buildings and significant public spaces. Through mastery in Technical Expertise, our firm has maintaned its well-acknowledged reputation by succesfully provided the structural design for numerous of the government buildings, airports, state / grant universities, schools, apartments, residences, and corporate buildings throughout the land of Indonesia.</p>
             </div>
+            
             <div class="info">
-              <h4>Profile</h4>
+              <h4>People</h4>
+  
+              <b-row>
+                <b-col cols="6" md="4" lg="2" v-for="people in peoples" :key="people.id">
+                  <div class="board-item">
+                    <span class="image" :style="{ backgroundImage: 'url(' + people.img + ')'}"></span>
+                    <div class="text">
+                      <h5>{{ people.nama }}</h5>
+                      <h6>{{ people.jabatan }}</h6>
+                      <span>Exp. {{ people.exp }}</span>
+                    </div>
+                  </div>
+                </b-col>
+              </b-row>
+            </div>
+
+            <div class="info">
+              <h4>Career</h4>
               <p>
-                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                DetaDecon offers a rewarding career experience, a collaborative interdisciplinary environment, and the opportunity to work on some of Indonesia’s most exciting and transformative engineering, and planning projects.
               </p>
-            </div>
-          </b-col>
-          <b-col md="12" lg="5">
-            <div class="info">
-              <h4>Organization Charts</h4>
-              
-              <div class="charts">
-                <b-row>
-                  <b-col md="12">
-                    <div class="name">
-                      <div>
-                        <h5>DIREKTUR UTAMA</h5>
-                        <h6>Ir. Chairul Basri Nasution</h6>
-                      </div>
-                    </div>
-                  </b-col>
-                  <b-col md="12" class="text-center">
-                    <img src="/struktur-1.png" alt="" class="tri-branch">
-                  </b-col>
-                  <b-col col="4">
-                    <div class="name small">
-                      <div>
-                        <h5>DIREKTUR TEKNIS</h5>
-                        <h6>Ir. Mardiana Daoed</h6>
-                      </div>
-                    </div>
-                  </b-col>
-                  <b-col col="4">
-                    <div class="name small">
-                      <div>
-                        <h5>DIREKTUR PENGEMBANGAN BISNIS & INVESTASI</h5>
-                        <h6>Satrio Rama Widyowicaksono S.Ip MSc</h6>
-                      </div>
-                    </div>
-                  </b-col>
-                  <b-col col="4">
-                    <div class="name small">
-                      <div>
-                        <h5>DIREKTUR KEUANGAN</h5>
-                        <h6>Ade Nurul Safrina SE MSc</h6>
-                      </div>
-                    </div>
-                  </b-col>
-                </b-row>
-                <b-row>
-                  <b-col col="4">
-                    <div class="div-wrap tre">
-                      <h4 class="div-item">Divisi Penelitian & Pengkajian Teknis</h4>
-                      <h4 class="div-item">Divisi Perancangan & Perencanaan</h4>
-                      <h4 class="div-item">Divisi Pengawasan & Manajemen Konstruksi</h4>
-                    </div>
-                  </b-col>
-                  <b-col col="4">
-                    <div class="div-wrap">
-                      <h4 class="div-item">Divisi Pengembangan Bisnis</h4>
-                      <h4 class="div-item">Divisi Pelelangan & Kontrak</h4>
-                    </div>
-                  </b-col>
-                  <b-col col="4">
-                    <div class="div-wrap">
-                      <h4 class="div-item">Divisi Umum & Sumber Daya Manusia</h4>
-                      <h4 class="div-item">Divisi Administrasi & Keuangan</h4>
-                    </div>
-                  </b-col>
-                </b-row>
-              </div>
+              <p>
+                Mail to: <a href="mailto:detadecon94@yahoo.com">detadecon94@yahoo.com</a> 
+              </p>
+              <p>Subject: Name_Job Application</p>
             </div>
           </b-col>
         </b-row>
@@ -123,6 +59,64 @@ export default {
   },
   data() {
     return {
+      peoples: [
+        {
+          id: 1,
+          img: 'https://cdn2.iconfinder.com/data/icons/lil-silhouettes/2176/person13-512.png',
+          nama: 'Ir. Chairul Basri Nasution',
+          jabatan: 'Direktur Utama',
+          exp: '40 Years'
+        },
+        {
+          id: 2,
+          img: 'https://cdn2.iconfinder.com/data/icons/lil-silhouettes/2176/person13-512.png',
+          nama: 'Ir. Chairul Basri Nasution',
+          jabatan: 'Direktur Utama',
+          exp: '40 Years'
+        },
+        {
+          id: 3,
+          img: 'https://cdn2.iconfinder.com/data/icons/lil-silhouettes/2176/person13-512.png',
+          nama: 'Ir. Chairul Basri Nasution',
+          jabatan: 'Direktur Utama',
+          exp: '40 Years'
+        },
+        {
+          id: 4,
+          img: 'https://cdn2.iconfinder.com/data/icons/lil-silhouettes/2176/person13-512.png',
+          nama: 'Ir. Chairul Basri Nasution',
+          jabatan: 'Direktur Utama',
+          exp: '40 Years'
+        },
+        {
+          id: 5,
+          img: 'https://cdn2.iconfinder.com/data/icons/lil-silhouettes/2176/person13-512.png',
+          nama: 'Ir. Chairul Basri Nasution',
+          jabatan: 'Direktur Utama',
+          exp: '40 Years'
+        },
+        {
+          id: 6,
+          img: 'https://cdn2.iconfinder.com/data/icons/lil-silhouettes/2176/person13-512.png',
+          nama: 'Ir. Chairul Basri Nasution',
+          jabatan: 'Direktur Utama',
+          exp: '40 Years'
+        },
+        {
+          id: 7,
+          img: 'https://cdn2.iconfinder.com/data/icons/lil-silhouettes/2176/person13-512.png',
+          nama: 'Ir. Chairul Basri Nasution',
+          jabatan: 'Direktur Utama',
+          exp: '40 Years'
+        },
+        {
+          id: 8,
+          img: 'https://cdn2.iconfinder.com/data/icons/lil-silhouettes/2176/person13-512.png',
+          nama: 'Ir. Chairul Basri Nasution',
+          jabatan: 'Direktur Utama',
+          exp: '40 Years'
+        },
+      ]
     }
   },
   head () {

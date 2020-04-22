@@ -61,8 +61,9 @@
       <b-container>
         <b-row v-if="dataShow.length != 0">
             <b-col md="4" sm="6" v-for="data in dataShow" :key="data.id">
-                <div class="image" :style="{ backgroundImage: 'url(' + data.img + ')'}">
+                <div class="image" :style="{ backgroundImage: 'url(' + data.img + ')'}" @click="openGallery(data.id)">
                     <div class="wrap">
+                        <span>{{ data.year }}</span>
                         <h5>{{ data.nama  }}</h5>
                         <h6>{{ data.cat  }}</h6>
                     </div>
@@ -78,6 +79,10 @@
     </div>
     
     <Footer />
+
+    <client-only>
+      <light-box ref="lightbox" :media="image" :show-caption="true" :show-light-box="false" :show-thumbs="false"/>
+    </client-only>
   </div>
 </template>
 
@@ -94,59 +99,75 @@ export default {
     return {
       dataShow: [],
       keyword: "",
+      image: [
+        { 
+          thumb: '',
+          src: '',
+          caption: '',
+        },
+      ],
       dataProject: [
           {
               id: 1,
-              nama: 'Project 1',
-              cat: 'Investigation and Building Audits',
+              nama: 'Gelora Bung Karno',
+              year: '2017 - 2018',
+              cat: 'Supervision and Construction Management',
               img: '/project-1.jpg',
           },
           {
               id: 2,
-              nama: 'Project 2',
-              cat: 'Investigation and Building Audits',
+              nama: 'Athlete Villages Kemayoran (Blok 10D2) Tower 3,4',
+              year: '2017 - 2018',
+              cat: 'Supervision and Construction Management, Architecture Planning and Design',
               img: '/project-2.jpg',
           },
           {
               id: 3,
-              nama: 'Project 3',
-              cat: 'Investigation and Building Audits',
+              nama: 'Kampus UIN Suska Riau',
+              year: '2005 - 2008',
+              cat: 'Supervision and Construction Management',
               img: '/project-3.jpg',
           },
           {
               id: 4,
-              nama: 'Project 4',
-              cat: 'Supervision and Construction Management',
+              nama: 'UIN Raden Patah Palembang',
+              year: '2017 - 2020',
+              cat: 'Project Management & Supervision Consultant',
               img: '/project-4.jpg',
           },
           {
               id: 5,
-              nama: 'Project 5',
-              cat: 'Supervision and Construction Management',
+              nama: 'UIN Sumatera Utara',
+              year: '2017 - 2020',
+              cat: 'Project Management & Supervision Consultant',
               img: '/project-5.jpg',
           },
           {
               id: 6,
-              nama: 'Project 6',
-              cat: 'Supervision and Construction Management',
+              nama: 'UIN Sunan Ampel Surabaya',
+              year: '2012 - 2013',
+              cat: 'Project Management & Supervision Consultant',
               img: '/project-6.jpg',
           },
           {
               id: 7,
-              nama: 'Project 7',
-              cat: 'Architecture Planning and Design',
+              nama: 'UIN Sultan Taha Jambi',
+              year: '2018',
+              cat: 'Detail Engineering Design',
               img: '/project-7.jpg',
           },
           {
               id: 8,
-              nama: 'Project 8',
-              cat: 'Architecture Planning and Design',
+              nama: 'Bank Indonesia Building',
+              year: '2009',
+              cat: 'Structural Design',
               img: '/project-8.jpg',
           },
           {
               id: 9,
-              nama: 'Project 9',
-              cat: 'Architecture Planning and Design',
+              nama: 'Sarana Wisma Islamic Centre',
+              year: '2010',
+              cat: 'Project Management & Supervision Consultant',
               img: '/project-9.jpg',
           },
       ],
@@ -158,7 +179,7 @@ export default {
   },
   methods: {
     filtered(params){
-      let tempFiltered = this.dataProject.filter( e => e.cat === params);
+      let tempFiltered = this.dataProject.filter( e => e.cat.toLowerCase().includes(params.toLowerCase()));
 
       this.dataShow = tempFiltered
     },
@@ -167,6 +188,14 @@ export default {
       let tempSearch = this.dataProject.filter( obj => obj.nama.toLowerCase().includes(this.search.toLowerCase()))
 
       this.dataShow = tempSearch
+    },
+    openGallery(params){
+      let tempImage = this.dataProject.filter( obj => obj.id === params);
+
+      this.image[0].thumb = tempImage[0].img;
+      this.image[0].src = tempImage[0].img;
+      this.image[0].caption = tempImage[0].year + " " + tempImage[0].nama + "<br/>" + tempImage[0].cat;
+      this.$refs.lightbox.showImage(0)
     }
   },
   head () {

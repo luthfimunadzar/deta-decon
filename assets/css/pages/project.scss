@@ -129,6 +129,12 @@
                 opacity: 1;
                 padding: 10px;
             }
+            span{
+                font-size: 10px;
+                display: block;
+                margin-bottom: 5px;
+                color: $wt;
+            }
             h5{
                 font-size: 18px;
                 color: $wt;
@@ -148,6 +154,7 @@
             }
         }
         &:hover, &:focus{
+            cursor: pointer;
             .wrap{
                 opacity: 1;
             }
@@ -164,5 +171,18 @@
     .btn{
         font-size: 14px;
         padding: 8px 30px;
+    }
+}
+
+.vue-lb-container{
+    .vue-lb-info{
+        font-size: 13px;
+        text-align: left;
+        height: auto;
+        padding: 5px;
+        bottom: 0;
+    }
+    .vue-lb-footer-count{
+        display: none;
     }
 }

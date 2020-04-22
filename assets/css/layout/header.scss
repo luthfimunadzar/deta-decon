@@ -38,6 +38,11 @@
                     background-color: #8D0F1B;
                 }
             }
+            .dropdown-menu{
+                @media screen and (max-width: 991px) { 
+                    border-radius: 0px;
+                }
+            }
         }
         .form-inline{
             .form-inline{
