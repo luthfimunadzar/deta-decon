@@ -86,6 +86,38 @@
       </b-container>
     </div>
     
+    <div class="media-partner">
+      <b-container>
+        <b-row>
+          <b-col lg="8">
+            <h4>Partners</h4>
+            <img src="/partner-1.png" alt="" class="img-mp">
+            <img src="/partner-2.png" alt="" class="img-mp">
+            <img src="/partner-3.png" alt="" class="img-mp">
+            <img src="/partner-4.png" alt="" class="img-mp">
+            <img src="/partner-5.png" alt="" class="img-mp">
+            <img src="/partner-6.png" alt="" class="img-mp">
+            <img src="/partner-7.png" alt="" class="img-mp">
+            <img src="/partner-8.png" alt="" class="img-mp">
+            <img src="/partner-9.png" alt="" class="img-mp">
+            <img src="/partner-10.png" alt="" class="img-mp">
+            <img src="/partner-11.png" alt="" class="img-mp">
+            <img src="/partner-12.png" alt="" class="img-mp">
+            <img src="/partner-13.png" alt="" class="img-mp">
+          </b-col>
+          <b-col lg="4">
+            <h4 class="mt-4 mt-lg-0">Media</h4>
+            <img src="/media-1.png" alt="" class="img-mp">
+            <img src="/media-2.png" alt="" class="img-mp">
+            <img src="/media-3.png" alt="" class="img-mp">
+            <img src="/media-4.png" alt="" class="img-mp">
+            <img src="/media-5.png" alt="" class="img-mp">
+            <img src="/media-6.png" alt="" class="img-mp">
+          </b-col>
+        </b-row>
+      </b-container>
+    </div>
+
     <Footer />
   </div>
 </template>
