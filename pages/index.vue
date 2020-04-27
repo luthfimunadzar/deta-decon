@@ -91,6 +91,27 @@
         <b-row>
           <b-col lg="8">
             <h4>Partners</h4>
+            <img src="/client-1.png" alt="" class="img-mp">
+            <img src="/client-2.png" alt="" class="img-mp">
+            <img src="/client-3.png" alt="" class="img-mp">
+            <img src="/client-4.png" alt="" class="img-mp">
+            <img src="/client-5.png" alt="" class="img-mp">
+            <img src="/client-6.jpg" alt="" class="img-mp">
+            <img src="/client-9.png" alt="" class="img-mp">
+            <img src="/client-7.png" alt="" class="img-mp">
+            <img src="/client-8.jpg" alt="" class="img-mp">
+          </b-col>
+          <b-col lg="4">
+            <h4 class="mt-4 mt-lg-0">Media</h4>
+            <img src="/media-1.png" alt="" class="img-mp">
+            <img src="/media-2.png" alt="" class="img-mp">
+            <img src="/media-3.png" alt="" class="img-mp">
+            <img src="/media-4.png" alt="" class="img-mp">
+            <img src="/media-5.png" alt="" class="img-mp">
+            <img src="/media-6.png" alt="" class="img-mp">
+          </b-col>
+          <b-col lg="12">
+            <h4>Clients</h4>
             <img src="/partner-1.png" alt="" class="img-mp">
             <img src="/partner-2.png" alt="" class="img-mp">
             <img src="/partner-3.png" alt="" class="img-mp">
@@ -104,15 +125,8 @@
             <img src="/partner-11.png" alt="" class="img-mp">
             <img src="/partner-12.png" alt="" class="img-mp">
             <img src="/partner-13.png" alt="" class="img-mp">
-          </b-col>
-          <b-col lg="4">
-            <h4 class="mt-4 mt-lg-0">Media</h4>
-            <img src="/media-1.png" alt="" class="img-mp">
-            <img src="/media-2.png" alt="" class="img-mp">
-            <img src="/media-3.png" alt="" class="img-mp">
-            <img src="/media-4.png" alt="" class="img-mp">
-            <img src="/media-5.png" alt="" class="img-mp">
-            <img src="/media-6.png" alt="" class="img-mp">
+            <img src="/partner-14.png" alt="" class="img-mp">
+            <img src="/partner-15.png" alt="" class="img-mp">
           </b-col>
         </b-row>
       </b-container>
