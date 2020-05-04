@@ -136,13 +136,10 @@
                 color: $wt;
             }
             h5{
-                font-size: 18px;
+                font-size: 16px;
                 color: $wt;
                 margin-bottom: 5px;
                 font-family: $b;
-                @media screen and (max-width: 991px) { 
-                    font-size: 16px;
-                }
             }
             h6{
                 font-size: 13px;

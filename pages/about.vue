@@ -62,59 +62,80 @@ export default {
       peoples: [
         {
           id: 1,
-          img: 'https://cdn2.iconfinder.com/data/icons/lil-silhouettes/2176/person13-512.png',
+          img: '/people1.jpg',
           nama: 'Ir. Chairul Basri Nasution',
           jabatan: 'Direktur Utama',
           exp: '40 Years'
         },
         {
           id: 2,
-          img: 'https://cdn2.iconfinder.com/data/icons/lil-silhouettes/2176/person13-512.png',
-          nama: 'Ir. Chairul Basri Nasution',
-          jabatan: 'Direktur Utama',
-          exp: '40 Years'
+          img: '/people2.jpg',
+          nama: 'Ir. Mardiana Daoed',
+          jabatan: 'Direktur',
+          exp: '38 Years'
         },
         {
           id: 3,
-          img: 'https://cdn2.iconfinder.com/data/icons/lil-silhouettes/2176/person13-512.png',
-          nama: 'Ir. Chairul Basri Nasution',
-          jabatan: 'Direktur Utama',
-          exp: '40 Years'
+          img: '/people3.jpg',
+          nama: 'Ir. Azwar Muchtasar',
+          jabatan: 'Team Leader, TA Struktur, TA Manajemen Konstruksi',
+          exp: '35 Years'
         },
         {
           id: 4,
-          img: 'https://cdn2.iconfinder.com/data/icons/lil-silhouettes/2176/person13-512.png',
-          nama: 'Ir. Chairul Basri Nasution',
-          jabatan: 'Direktur Utama',
-          exp: '40 Years'
+          img: '/people4.jpg',
+          nama: 'Ir. Devy Kartika',
+          jabatan: 'TA. Arsitektur',
+          exp: '25 Years'
         },
         {
           id: 5,
-          img: 'https://cdn2.iconfinder.com/data/icons/lil-silhouettes/2176/person13-512.png',
-          nama: 'Ir. Chairul Basri Nasution',
-          jabatan: 'Direktur Utama',
-          exp: '40 Years'
+          img: '/people5.jpg',
+          nama: 'Ir. Farida Ansuria',
+          jabatan: 'TA. Struktur',
+          exp: '27 Years'
         },
         {
           id: 6,
-          img: 'https://cdn2.iconfinder.com/data/icons/lil-silhouettes/2176/person13-512.png',
-          nama: 'Ir. Chairul Basri Nasution',
-          jabatan: 'Direktur Utama',
-          exp: '40 Years'
+          img: '/people6.jpg',
+          nama: 'Ir. Sudiro',
+          jabatan: 'TA. Estimator',
+          exp: '30 Years'
         },
         {
           id: 7,
-          img: 'https://cdn2.iconfinder.com/data/icons/lil-silhouettes/2176/person13-512.png',
-          nama: 'Ir. Chairul Basri Nasution',
-          jabatan: 'Direktur Utama',
-          exp: '40 Years'
+          img: '/people7.jpeg',
+          nama: 'Ir. Djadjuli Hasjim',
+          jabatan: 'TA. Mekanikal',
+          exp: '30 Years'
         },
         {
           id: 8,
-          img: 'https://cdn2.iconfinder.com/data/icons/lil-silhouettes/2176/person13-512.png',
-          nama: 'Ir. Chairul Basri Nasution',
-          jabatan: 'Direktur Utama',
-          exp: '40 Years'
+          img: '/people8.jpg',
+          nama: 'Ir. Fayandi Zakir',
+          jabatan: 'TA. Arsitektur',
+          exp: '31 Years'
+        },
+        {
+          id: 9,
+          img: '/people9.jpg',
+          nama: 'Yusuf Munawar, ST.',
+          jabatan: 'TA. Manajemen Konstruksi',
+          exp: '25 Years'
+        },
+        {
+          id: 10,
+          img: '/people10.jpg',
+          nama: 'Rois, ST.',
+          jabatan: 'TA. Elektrikal',
+          exp: '18 Years'
+        },
+        {
+          id: 11,
+          img: '/people11.jpg',
+          nama: 'Wahyu Raharjo, ST.',
+          jabatan: 'TA. Manajemen Mutu',
+          exp: '21 Years'
         },
       ]
     }

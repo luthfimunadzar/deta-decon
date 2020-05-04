@@ -8,20 +8,20 @@
           <b-col lg="6">
             <div class="info">
               <h4>Awards</h4>
-
-              <div class="awards-item" v-for="data in awards" :key="data.id">
-                <b-row>
-                  <b-col md="3">
-                    <div class="img" :style="{ backgroundImage: 'url(' + data.img + ')'}"></div>
-                  </b-col>
-                  <b-col md="9" class="d-flex align-items-center">
-                    <div class="wrap">
-                      <h5>{{ data.title }}</h5>
-                      <p>{{ data.text }}</p>
-                      <a :href="data.link" target="_blank">Read More</a>
-                    </div>
-                  </b-col>
-                </b-row>
+              
+              <div class="project-wrap px-0 py-0">
+                <b-container class="px-0">
+                  <b-row no-gutters v-if="dataShow.length != 0">
+                      <b-col md="12" sm="6" v-for="data in dataShow" :key="data.id">
+                          <div class="image" :style="{ backgroundImage: 'url(' + data.img + ')'}" @click="openGallery(data.id)">
+                              <div class="wrap">
+                                  <span>{{ data.year }}</span>
+                                  <h5>{{ data.nama  }}</h5>
+                              </div>
+                          </div>
+                      </b-col>
+                  </b-row>
+                </b-container>
               </div>
             </div>
           </b-col>
@@ -50,6 +50,10 @@
     </div>
     
     <Footer />
+
+    <client-only>
+      <light-box ref="lightbox" :media="image" :show-caption="true" :show-light-box="false" :show-thumbs="false"/>
+    </client-only>
   </div>
 </template>
 
@@ -64,6 +68,21 @@ export default {
   },
   data() {
     return {
+      image: [
+        { 
+          thumb: '',
+          src: '',
+          caption: '',
+        },
+      ],
+      dataProject: [
+        {
+          id: 1,
+          nama: 'Penghargaan penyediaan sarana dan prasarana olahraga dalam Asian Games XVII Tahun 2018 dari Wakil Presiden Republik Indonesia M. Jusuf Kalla',
+          year: '2018',
+          img: '/awards.jpeg',
+        },
+      ],
       awards: [
         {
           id: 1,
@@ -101,6 +120,19 @@ export default {
           link: 'http://lombokita.com/pemerintah-optimistis-wisma-atlet-selesai-2017/'
         },
       ]
+    }
+  },
+  created() {
+    this.dataShow = this.dataProject
+  },
+  methods: {
+    openGallery(params){
+      let tempImage = this.dataProject.filter( obj => obj.id === params);
+
+      this.image[0].thumb = tempImage[0].img;
+      this.image[0].src = tempImage[0].img;
+      this.image[0].caption = tempImage[0].year + " " + tempImage[0].nama;
+      this.$refs.lightbox.showImage(0)
     }
   },
   head () {

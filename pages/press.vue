@@ -80,6 +80,41 @@ export default {
           text: 'Lalu Konsultan Manajemen Konstruksi untuk C2 adalah PT Yodya Karya dan untuk D10 adalah PT Bina Karya, PT Deta Decon dan PT ...',
           link: 'http://lombokita.com/pemerintah-optimistis-wisma-atlet-selesai-2017/'
         },
+        {
+          id: 6,
+          img: 'https://asset.kompas.com/data/photo/2016/08/29/1607445Preview-Renovasi-GBK780x390.jpg',
+          title: 'Menanti Wajah Baru Kompleks Gelora Bung Karno Senayan',
+          text: 'Dalam rangka menyukseskan perhelatan Asian Games 2018 di Jakarta dan Palembang, sejumlah proyek pembangunan fasilitas utama ...',
+          link: 'https://properti.kompas.com/read/2016/08/29/070000521/menanti.wajah.baru.kompleks.gelora.bung.karno.senayan?page=all'
+        },
+        {
+          id: 7,
+          img: 'https://cdn2.tstatic.net/makassar/foto/bank/images/dodi-triono-5_20161229_091139.jpg',
+          title: 'Berikut Daftar Kontraktor Proyek Gelora Bung Karno Senilai Triliunan Rupiah, Ada Nama Dodi Triono?',
+          text: 'Dodi Triono, arsitek sekaligus pengusaha dan kontraktor yang tewas disekap di rumahnya, dikabarkan sebagai pemimpin pemenang ...',
+          link: 'https://makassar.tribunnews.com/2016/12/29/berikut-daftar-kontraktor-proyek-gelora-bung-karno-senilai-triliunan-rupiah-ada-nama-dodi-triono'
+        },
+        {
+          id: 8,
+          img: 'https://asset.kompas.com/data/photo/2016/07/28/1445225logo21780x390.jpg',
+          title: 'Pembangunan Wisma Atlet Kemayoran Masih 11 Persen',
+          text: 'ementerian Pekerjaan Umum dan Perumahan Rakyat (PUPR) merilis progres pembangunan Wisma Atlet Kemayoran, Jakarta Pusat ...',
+          link: 'https://properti.kompas.com/read/2016/08/10/220000721/Pembangunan.Wisma.Atlet.Kemayoran.Masih.11.Persen.'
+        },
+        {
+          id: 9,
+          img: 'https://images.solopos.com/2016/11/Ilustrasi-kampus-Universitas-Islam-Negeri-UIN-Walisongo.-walisongo.ac_.id_.jpg',
+          title: 'KAMPUS DI SEMARANG : Kontrak Pembangunan UIN Semarang Ditandatangani, Terealisasi 2017?',
+          text: 'Proyek pembangunan empat kampus Perguruan Tinggi Keagamaan Islam Negeri (PTKIN) di lingkungan Kementerian Agama (Kemenag) ...',
+          link: 'https://www.solopos.com/kampus-di-semarang-kontrak-pembangunan-uin-semarang-ditandatangani-terealisasi-2017-771491'
+        },
+        {
+          id: 10,
+          img: 'https://ppdpp.id/wp-content/uploads/2018/03/rusun-ponpes-800x445.jpg',
+          title: 'Presiden Jokowi Tinjau Rusun Ponpes An-Nawawi Tanara Banten',
+          text: 'Presiden Joko Widodo didampingi Menteri Pekerjaan Umum dan Perumahan Rakyat (PUPR) Basuki Hadimuljono meninjau Rumah Susun ...',
+          link: 'https://indopos.co.id/read/2018/03/14/131130/presiden-jokowi-tinjau-rusun-ponpes-an-nawawi-tanara-banten/'
+        },
       ]
     }
   },

@@ -15,27 +15,28 @@
                                 <span class="d-md-block d-none">Investigation and<br/>Building Audits</span>
                                 <span class="d-md-none d-block">Investigation and Building Audits</span>
                             </template>
-                            <b-dropdown-item @click="filtered('Investigation and Building Audits')">Investigation and Building Audits</b-dropdown-item>
-                            <b-dropdown-item @click="filtered('Investigation and Building Audits')">Investigation and Building Audits</b-dropdown-item>
-                            <b-dropdown-item @click="filtered('Investigation and Building Audits')">Investigation and Building Audits</b-dropdown-item>
+                            <b-dropdown-item @click="filtered('Structure Investigation')">Structure Investigation</b-dropdown-item>
+                            <b-dropdown-item @click="filtered('Building Audits')">Building Audits</b-dropdown-item>
+                            <b-dropdown-item @click="filtered('Structure Strengthening & Design')">Structure Strengthening & Design</b-dropdown-item>
                         </b-dropdown>
                         <b-dropdown right>
                             <template v-slot:button-content>
                                 <span class="d-md-block d-none">Supervision and<br/>Construction Management</span>
                                 <span class="d-md-none d-block">Supervision and Construction Management</span>
                             </template>
-                            <b-dropdown-item @click="filtered('Supervision and Construction Management')">Supervision and Construction Management</b-dropdown-item>
-                            <b-dropdown-item @click="filtered('Supervision and Construction Management')">Supervision and Construction Management</b-dropdown-item>
-                            <b-dropdown-item @click="filtered('Supervision and Construction Management')">Supervision and Construction Management</b-dropdown-item>
+                            <b-dropdown-item @click="filtered('Project Management & Supervision Consultant')">Project Management & Supervision Consultant</b-dropdown-item>
+                            <b-dropdown-item @click="filtered('Construction Management')">Construction Management</b-dropdown-item>
+                            <b-dropdown-item @click="filtered('Supervision Consultant')">Supervision Consultant</b-dropdown-item>
                         </b-dropdown>
                         <b-dropdown right>
                             <template v-slot:button-content>
                                 <span class="d-md-block d-none">Architecture Planning<br/>and Design</span>
                                 <span class="d-md-none d-block">Architecture Planning and Design</span>
                             </template>
-                            <b-dropdown-item @click="filtered('Architecture Planning and Design')">Architecture Planning and Design</b-dropdown-item>
-                            <b-dropdown-item @click="filtered('Architecture Planning and Design')">Architecture Planning and Design</b-dropdown-item>
-                            <b-dropdown-item @click="filtered('Architecture Planning and Design')">Architecture Planning and Design</b-dropdown-item>
+                            <b-dropdown-item @click="filtered('Detail Engineering Design')">Detail Engineering Design</b-dropdown-item>
+                            <b-dropdown-item @click="filtered('Architecture Design')">Architecture Design</b-dropdown-item>
+                            <b-dropdown-item @click="filtered('Structure Design')">Structure Design</b-dropdown-item>
+                            <b-dropdown-item @click="filtered('Mechanical, Electrical and Plumbing Design')">Mechanical, Electrical and Plumbing Design</b-dropdown-item>
                         </b-dropdown>
                     </div>
                 </b-col>
