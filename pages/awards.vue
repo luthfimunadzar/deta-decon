@@ -5,14 +5,14 @@
     <div class="about-wrap">
       <b-container>
         <b-row>
-          <b-col lg="6">
+          <b-col lg="12">
             <div class="info">
               <h4>Awards</h4>
               
               <div class="project-wrap px-0 py-0">
                 <b-container class="px-0">
                   <b-row no-gutters v-if="dataShow.length != 0">
-                      <b-col md="12" sm="6" v-for="data in dataShow" :key="data.id">
+                      <b-col md="6" sm="6" v-for="data in dataShow" :key="data.id">
                           <div class="image" :style="{ backgroundImage: 'url(' + data.img + ')'}" @click="openGallery(data.id)">
                               <div class="wrap">
                                   <span>{{ data.year }}</span>
@@ -25,23 +25,150 @@
               </div>
             </div>
           </b-col>
-          <b-col lg="6">
+          <b-col lg="12">
             <div class="info">
               <h4>Achievement</h4>
 
-              <div class="awards-item" v-for="data in awards" :key="data.id">
-                <b-row>
-                  <b-col md="3">
-                    <div class="img" :style="{ backgroundImage: 'url(' + data.img + ')'}"></div>
-                  </b-col>
-                  <b-col md="9" class="d-flex align-items-center">
-                    <div class="wrap">
-                      <h5>{{ data.title }}</h5>
-                      <p>{{ data.text }}</p>
-                      <a :href="data.link" target="_blank">Read More</a>
-                    </div>
-                  </b-col>
-                </b-row>
+              <div class="achievement-item">
+                <h5>Certificate Of Business Entity Other Consultancy Services</h5>
+
+                <h6>Classification Of Business Fields : Other Consultancy</h6>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th>Subclassification Code</th>
+                      <th>Subclassification</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>KL401</td>
+                      <td>Environmental Consultancy Services</td>
+                    </tr>
+                    <tr>
+                      <td>KL403</td>
+                      <td>Project Management Services Related to Building Construction</td>
+                    </tr>
+                    <tr>
+                      <td>KL406</td>
+                      <td>Project Management Services Related to Other Civil Engineering Construction Work</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="achievement-item">
+                <hr/>
+                <h5>Certificate of Business Entity Construction Planner Services</h5>
+
+                <h6>Classification Of Business Fields :	Spatial Planning</h6>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th>Subclassification Code</th>
+                      <th>Subclassification</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>PR103</td>
+                      <td>Planning and Design Services for Building and Landscape Environment</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <h6>Classification Of Business Fields : 	Architectural Planning</h6>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th>Subclassification Code</th>
+                      <th>Subclassification</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>AR101</td>
+                      <td>Architectural Advice and Design Services</td>
+                    </tr>
+                    <tr>
+                      <td>AR102</td>
+                      <td>Architectural Design Services</td>
+                    </tr>
+                    <tr>
+                      <td>AR103</td>
+                      <td>Building Appraisal and Maintenance Service Services</td>
+                    </tr>
+                    <tr>
+                      <td>AR104</td>
+                      <td>Interior Design Services</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <h6>Classification Of Business Fields : 	Engineering Planning</h6>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th>Subclassification Code</th>
+                      <th>Subclassification</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>RE101</td>
+                      <td>Engineering Consultancy and Consultancy Services</td>
+                    </tr>
+                    <tr>
+                      <td>RE102</td>
+                      <td>Engineering Design Services for Foundation and Building Structure Construction</td>
+                    </tr>
+                    <tr>
+                      <td>RE104</td>
+                      <td>Engineering Design Services for Civil Engineering Works in Transportation</td>
+                    </tr>
+                    <tr>
+                      <td>RE105</td>
+                      <td>Engineering Design Services for Mechanical and Electrical Works in Buildings</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="achievement-item">
+                <hr/>
+                <h5>Certificate of Construction Supervision Services Business Entity				</h5>
+
+                <h6>Classification Of Business Fields : 	Engineering Oversight</h6>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th>Subclassification Code</th>
+                      <th>Subclassification</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>RE201</td>
+                      <td>Building Construction Work Supervisor Services</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <h6>Classification Of Business Fields : 	Architectural Supervision</h6>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th>Subclassification Code</th>
+                      <th>Subclassification</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>AR201</td>
+                      <td>Contract Administration Supervision Services</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </b-col>
@@ -83,43 +210,6 @@ export default {
           img: '/awards.jpeg',
         },
       ],
-      awards: [
-        {
-          id: 1,
-          img: 'https://cdn1.katadata.co.id/media/images/temp/2018/01/17/2018_01_17-10_01_00_abe0245fd667d43642de627b52e98c92.jpg',
-          title: 'Wajah Baru Gelora Bung Karno',
-          text: 'Sementara konsultan manajemen konstruksi adalah PT Deta Decon dan PT Multi Karadiguna Jasa dengan nilai kontrak Rp 10,2 miliar.',
-          link: 'https://katadata.co.id/infografik/2018/01/17/wajah-baru-gelora-bung-karno'
-        },
-        {
-          id: 2,
-          img: 'https://img-k.okeinfo.net/content/2016/08/15/470/1464327/renovasi-gbk-kementerian-pupr-gandeng-9-perusahaan-konstruksi-fMsqqD3Bou.jpg',
-          title: 'Renovasi GBK, Kementerian PUPR Gandeng 9 Perusahaan Konstruksi',
-          text: 'Stadion Utama GBK oleh PT Deta Decon Rp9,5 miliar, Stadion Renang Aquatic PT Sangkuriang dengan nilai kontrak Rp4 miliar, ...',
-          link: 'https://economy.okezone.com/read/2016/08/15/470/1464327/renovasi-gbk-kementerian-pupr-gandeng-9-perusahaan-konstruksi'
-        },
-        {
-          id: 3,
-          img: 'https://static.republika.co.id/uploads/images/inpicture_slide/dirjen-pendidikan-islam-kamaruddin-amin-_141222133638-623.jpg',
-          title: 'IsDB Biayai Pembangunan 4 Kampus PTKIN pada 2017',
-          text: 'Konsultasn PT Deta Decon akan menangani paket 1 dan paket 2 di UIN Sumatera Utara dan Raden Fatah Palembang. PT Ciriajasa Cipta ...',
-          link: 'https://www.republika.co.id/berita/pendidikan/dunia-kampus/16/11/23/oh3d9e396-isdb-biayai-pembangunan-4-kampus-ptkin-pada-2017'
-        },
-        {
-          id: 4,
-          img: 'https://netizen.media/wp-content/uploads/2018/01/megah-nan-mewah-750x430.jpg',
-          title: 'GBK Jakarta Kalahkan Stadion Wembley London',
-          text: 'Sedangkan konsultan manajemen konstruksinya PT Deta Decon dan PT Multi Karadiguna Jasa KSO dengan nilai kontrak Rp10,2 Miliar ...',
-          link: 'https://netizen.media/2018/01/14/gbk-jakarta-kalahkan-stadion-wembley-london/'
-        },
-        {
-          id: 5,
-          img: 'http://lombokita.com/wp-content/uploads/2017/07/wisma-atlet-kemayoran.jpg',
-          title: 'Pemerintah Optimistis Wisma Atlet Selesai 2017',
-          text: 'Lalu Konsultan Manajemen Konstruksi untuk C2 adalah PT Yodya Karya dan untuk D10 adalah PT Bina Karya, PT Deta Decon dan PT ...',
-          link: 'http://lombokita.com/pemerintah-optimistis-wisma-atlet-selesai-2017/'
-        },
-      ]
     }
   },
   created() {
