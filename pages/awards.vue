@@ -27,7 +27,7 @@
           </b-col>
           <b-col lg="12">
             <div class="info">
-              <h4>Achievement</h4>
+              <h4>Business Certifications</h4>
 
               <div class="achievement-item">
                 <h5>Certificate Of Business Entity Other Consultancy Services</h5>

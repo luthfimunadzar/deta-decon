@@ -12,7 +12,7 @@
           <b-nav-item to="/project">Project</b-nav-item>
           <b-nav-item-dropdown text="Company" right>
             <b-dropdown-item to="/about">About</b-dropdown-item>
-            <b-dropdown-item to="/awards">Awards</b-dropdown-item>
+            <b-dropdown-item to="/awards">Awards & Business Certifications</b-dropdown-item>
             <b-dropdown-item to="/press">Deta Decon in the press</b-dropdown-item>
           </b-nav-item-dropdown>
           <b-nav-item to="/contact">Contact Us</b-nav-item>
