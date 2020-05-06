@@ -205,7 +205,7 @@ export default {
       dataProject: [
         {
           id: 1,
-          nama: 'Penghargaan penyediaan sarana dan prasarana olahraga dalam Asian Games XVII Tahun 2018 dari Wakil Presiden Republik Indonesia M. Jusuf Kalla',
+          nama: 'Award for the provision of sports facilities and infrastructure in the 2018 Asian Games XVII from the Vice President of the Republic of Indonesia M. Jusuf Kalla',
           year: '2018',
           img: '/awards.jpeg',
         },
@@ -227,11 +227,11 @@ export default {
   },
   head () {
     return {
-      title: 'Awards | Deta Decon',
+      title: 'Awards & Business Certifications | Deta Decon',
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         { hid: 'description', name: 'description', content: 'PT Deta Decon is a structural & civil consulting firm based in Jakarta, Indonesia. Founded in 1994, the 26-year old company has delivered excellence through the area of expertise in building structure, building skin, building performance, construction support services, property loss consulting and sustainability. ' },
-        { hid: 'og:title', name: 'og:title', content: 'Deta Decon' },
+        { hid: 'og:title', name: 'og:title', content: 'Awards & Business Certifications | Deta Decon' },
         { hid: 'og:description', name: 'og:description', content: 'PT Deta Decon is a structural & civil consulting firm based in Jakarta, Indonesia. Founded in 1994, the 26-year old company has delivered excellence through the area of expertise in building structure, building skin, building performance, construction support services, property loss consulting and sustainability. ' },
       ]
     }

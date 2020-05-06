@@ -64,78 +64,78 @@ export default {
           id: 1,
           img: '/people1.jpg',
           nama: 'Ir. Chairul Basri Nasution',
-          jabatan: 'Direktur Utama',
+          jabatan: 'President Director',
           exp: '40 Years'
         },
         {
           id: 2,
           img: '/people2.jpg',
           nama: 'Ir. Mardiana Daoed',
-          jabatan: 'Direktur',
+          jabatan: 'Director',
           exp: '38 Years'
         },
         {
           id: 3,
           img: '/people3.jpg',
           nama: 'Ir. Azwar Muchtasar',
-          jabatan: 'Team Leader, TA Struktur, TA Manajemen Konstruksi',
+          jabatan: 'Team Leader, Structural Expert, Construction Management Expert',
           exp: '35 Years'
         },
         {
-          id: 4,
-          img: '/people4.jpg',
-          nama: 'Ir. Devy Kartika',
-          jabatan: 'TA. Arsitektur',
+          id: 9,
+          img: '/people9.jpg',
+          nama: 'Ir. Yusuf Munawar',
+          jabatan: 'Construction Management experts',
           exp: '25 Years'
+        },
+        {
+          id: 11,
+          img: '/people11.jpg',
+          nama: 'Ir. Wahyu Raharjo',
+          jabatan: 'Quality Management experts',
+          exp: '21 Years'
         },
         {
           id: 5,
           img: '/people5.jpg',
           nama: 'Ir. Farida Ansuria',
-          jabatan: 'TA. Struktur',
+          jabatan: 'Structural Expert',
           exp: '27 Years'
         },
         {
           id: 6,
           img: '/people6.jpg',
           nama: 'Ir. Sudiro',
-          jabatan: 'TA. Estimator',
-          exp: '30 Years'
-        },
-        {
-          id: 7,
-          img: '/people7.jpeg',
-          nama: 'Ir. Djadjuli Hasjim',
-          jabatan: 'TA. Mekanikal',
+          jabatan: 'Estimator Expert',
           exp: '30 Years'
         },
         {
           id: 8,
           img: '/people8.jpg',
           nama: 'Ir. Fayandi Zakir',
-          jabatan: 'TA. Arsitektur',
+          jabatan: 'Architectural Expert',
           exp: '31 Years'
         },
         {
-          id: 9,
-          img: '/people9.jpg',
-          nama: 'Yusuf Munawar, ST.',
-          jabatan: 'TA. Manajemen Konstruksi',
+          id: 4,
+          img: '/people4.jpg',
+          nama: 'Ir. Devy Kartika',
+          jabatan: 'Architectural Expert',
           exp: '25 Years'
+        },
+        {
+          id: 7,
+          img: '/people7.jpeg',
+          nama: 'Ir. Djadjuli Hasjim',
+          jabatan: 'Mechanical Expert',
+          exp: '30 Years'
         },
         {
           id: 10,
           img: '/people10.jpg',
-          nama: 'Rois, ST.',
-          jabatan: 'TA. Elektrikal',
+          nama: 'Ir. Rois',
+          jabatan: 'Electrical Expert',
           exp: '18 Years'
-        },
-        {
-          id: 11,
-          img: '/people11.jpg',
-          nama: 'Wahyu Raharjo, ST.',
-          jabatan: 'TA. Manajemen Mutu',
-          exp: '21 Years'
         },
       ]
     }
@@ -146,7 +146,7 @@ export default {
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         { hid: 'description', name: 'description', content: 'PT Deta Decon is a structural & civil consulting firm based in Jakarta, Indonesia. Founded in 1994, the 26-year old company has delivered excellence through the area of expertise in building structure, building skin, building performance, construction support services, property loss consulting and sustainability. ' },
-        { hid: 'og:title', name: 'og:title', content: 'Deta Decon' },
+        { hid: 'og:title', name: 'og:title', content: 'About | Deta Decon' },
         { hid: 'og:description', name: 'og:description', content: 'PT Deta Decon is a structural & civil consulting firm based in Jakarta, Indonesia. Founded in 1994, the 26-year old company has delivered excellence through the area of expertise in building structure, building skin, building performance, construction support services, property loss consulting and sustainability. ' },
       ]
     }
