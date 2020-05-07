@@ -368,13 +368,13 @@ export default {
               cat: 'Supervision Consultant',
               img: '/project-37.jpg',
           },
-          {
-              id: 38,
-              nama: "Block C and D Buildings in East Jakarta Mayor's Office",
-              year: '2007-2009',
-              cat: 'Supervision Consultant',
-              img: '/project-38.jpg',
-          },
+        //   {
+        //       id: 38,
+        //       nama: "Block C and D Buildings in East Jakarta Mayor's Office",
+        //       year: '2007-2009',
+        //       cat: 'Supervision Consultant',
+        //       img: '/project-38.jpg',
+        //   },
           {
               id: 39,
               nama: "Blok G Building as a Green Building",
