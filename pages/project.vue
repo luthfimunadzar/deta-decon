@@ -202,7 +202,7 @@ export default {
           },
           {
               id: 14,
-              nama: 'Auditorium/Multipurpose Building of The State University of Gorontalo.',
+              nama: 'Auditorium/Multipurpose Building of The State University of Gorontalo',
               year: '2011',
               cat: 'Detail Engineering Design (Educational Building)',
               img: '/project-14.jpg',
@@ -216,21 +216,21 @@ export default {
           },
           {
               id: 16,
-              nama: 'Menteng Park, Cental of Jakarta',
+              nama: 'Menteng Park, Cental Jakarta',
               year: '2006',
               cat: 'Detail Engineering Design (Public Buildings & Infra Structure)',
               img: '/project-16.jpg',
           },
           {
               id: 17,
-              nama: 'Training Centre of Pusdiklat Pajak, Ministry of Finance',
+              nama: 'Training Centre (Pusdiklat Pajak), Ministry of Finance Republic of Indonesia',
               year: '2014',
               cat: 'Detail Engineering Design (Public Buildings & Infra Structure)',
               img: '/project-17.jpg',
           },
           {
               id: 18,
-              nama: 'Hotel Grandika Project',
+              nama: 'Hotel Grandhika Iskandarsyah',
               year: '2013-2014',
               cat: 'Construction Management',
               img: '/project-18.jpg',
@@ -251,7 +251,7 @@ export default {
           },
           {
               id: 21,
-              nama: 'Regional Office Directorate General of Customs and Excise',
+              nama: 'Regional Office, Directorate General of Customs and Excise, Ministry of Finance Republic of Indonesia',
               year: '2010',
               cat: 'Construction Management',
               img: '/project-21.jpg',
@@ -279,7 +279,7 @@ export default {
           },
           {
               id: 25,
-              nama: 'Riau Main Stadium Construction',
+              nama: 'Riau Main Stadium',
               year: '2008',
               cat: 'Construction Management',
               img: '/project-25.jpg',
@@ -293,7 +293,7 @@ export default {
           },
           {
               id: 27,
-              nama: 'Simple Flats (Rusunawa) and PSD for Marunda Location in DKI Jakarta',
+              nama: 'Simple Flats (Rusunawa) and PSD Marunda, DKI Jakarta',
               year: '2004-2006',
               cat: 'Construction Management',
               img: '/project-27.jpg',
