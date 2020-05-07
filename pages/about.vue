@@ -78,22 +78,15 @@ export default {
           id: 3,
           img: '/people3.jpg',
           nama: 'Ir. Azwar Muchtasar',
-          jabatan: 'Team Leader, Structural Expert, Construction Management Expert',
+          jabatan: 'Structural Expert, Construction Management Expert',
           exp: '35 Years'
         },
         {
-          id: 9,
-          img: '/people9.jpg',
-          nama: 'Ir. Yusuf Munawar',
-          jabatan: 'Construction Management experts',
-          exp: '25 Years'
-        },
-        {
-          id: 11,
-          img: '/people11.jpg',
-          nama: 'Ir. Wahyu Raharjo',
-          jabatan: 'Quality Management experts',
-          exp: '21 Years'
+          id: 4,
+          img: '/people6.jpg',
+          nama: 'Ir. Sudiro',
+          jabatan: 'Estimator Expert',
+          exp: '30 Years'
         },
         {
           id: 5,
@@ -104,38 +97,87 @@ export default {
         },
         {
           id: 6,
-          img: '/people6.jpg',
-          nama: 'Ir. Sudiro',
-          jabatan: 'Estimator Expert',
-          exp: '30 Years'
+          img: '/people9.jpg',
+          nama: 'Ir. Yusuf Munawar',
+          jabatan: 'Construction Management experts',
+          exp: '25 Years'
+        },
+        {
+          id: 7,
+          img: 'https://cdn2.iconfinder.com/data/icons/lil-silhouettes/2176/person13-512.png',
+          nama: 'Ir. Endang Wahyudin',
+          jabatan: 'Lorem Ipsum',
+          exp: '~ Years'
         },
         {
           id: 8,
+          img: '/people11.jpg',
+          nama: 'Ir. Wahyu Raharjo',
+          jabatan: 'Quality Management experts',
+          exp: '21 Years'
+        },
+        {
+          id: 9,
+          img: 'https://cdn2.iconfinder.com/data/icons/lil-silhouettes/2176/person13-512.png',
+          nama: 'Ir. Andi Arman',
+          jabatan: 'Lorem Ipsum',
+          exp: '~ Years'
+        },
+        {
+          id: 10,
+          img: 'https://cdn2.iconfinder.com/data/icons/lil-silhouettes/2176/person13-512.png',
+          nama: 'Ir. Nugroho Budianto',
+          jabatan: 'Lorem Ipsum',
+          exp: '~ Years'
+        },
+        {
+          id: 11,
+          img: 'https://cdn2.iconfinder.com/data/icons/lil-silhouettes/2176/person13-512.png',
+          nama: 'Ir. Ayman',
+          jabatan: 'Lorem Ipsum',
+          exp: '~ Years'
+        },
+        {
+          id: 12,
           img: '/people8.jpg',
           nama: 'Ir. Fayandi Zakir',
           jabatan: 'Architectural Expert',
           exp: '31 Years'
         },
         {
-          id: 4,
+          id: 13,
           img: '/people4.jpg',
           nama: 'Ir. Devy Kartika',
           jabatan: 'Architectural Expert',
           exp: '25 Years'
         },
         {
-          id: 7,
-          img: '/people7.jpeg',
-          nama: 'Ir. Djadjuli Hasjim',
-          jabatan: 'Mechanical Expert',
-          exp: '30 Years'
+          id: 14,
+          img: 'https://cdn2.iconfinder.com/data/icons/lil-silhouettes/2176/person13-512.png',
+          nama: 'Ir. Irawan Saleh',
+          jabatan: 'Lorem Ipsum',
+          exp: '~ Years'
         },
         {
-          id: 10,
+          id: 15,
+          img: 'https://cdn2.iconfinder.com/data/icons/lil-silhouettes/2176/person13-512.png',
+          nama: 'Ir. Jajuli H',
+          jabatan: 'Lorem Ipsum',
+          exp: '~ Years'
+        },
+        {
+          id: 16,
           img: '/people10.jpg',
           nama: 'Ir. Rois',
           jabatan: 'Electrical Expert',
           exp: '18 Years'
+        },
+        {
+          id: 17,
+          img: 'https://cdn2.iconfinder.com/data/icons/lil-silhouettes/2176/person13-512.png',
+          nama: 'Ir. Satrio Rama',
+          jabatan: 'Lorem Ipsum',
+          exp: '~ Years'
         },
       ]
     }

@@ -9,7 +9,7 @@
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
           <b-nav-item to="/">Home</b-nav-item>
-          <b-nav-item to="/project">Project</b-nav-item>
+          <b-nav-item href="/project">Project</b-nav-item>
           <b-nav-item-dropdown text="Company" right>
             <b-dropdown-item to="/about">About</b-dropdown-item>
             <b-dropdown-item to="/awards">Awards & Business Certifications</b-dropdown-item>
