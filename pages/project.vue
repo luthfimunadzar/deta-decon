@@ -16,7 +16,7 @@
                                 <span class="d-md-none d-block">Investigation and Building Audits</span>
                             </template>
                             <b-dropdown-item @click="filtered('Structure Investigation')">Structure Investigation</b-dropdown-item>
-                            <b-dropdown-item @click="filtered('Building Audits')">Building Audits</b-dropdown-item>
+                            <b-dropdown-item @click="filtered('Building Audit')">Building Audit</b-dropdown-item>
                             <b-dropdown-item @click="filtered('Structure Strengthening & Design')">Structure Strengthening & Design</b-dropdown-item>
                         </b-dropdown>
                         <b-dropdown right>
