@@ -172,13 +172,6 @@ export default {
           jabatan: 'Electrical Expert',
           exp: '18 Years'
         },
-        {
-          id: 17,
-          img: 'https://cdn2.iconfinder.com/data/icons/lil-silhouettes/2176/person13-512.png',
-          nama: 'Ir. Satrio Rama',
-          jabatan: 'Lorem Ipsum',
-          exp: '~ Years'
-        },
       ]
     }
   },
