@@ -104,10 +104,10 @@ export default {
         },
         {
           id: 7,
-          img: 'https://cdn2.iconfinder.com/data/icons/lil-silhouettes/2176/person13-512.png',
-          nama: 'Ir. Endang Wahyudin',
-          jabatan: 'Lorem Ipsum',
-          exp: '~ Years'
+          img: '/people12.jpg',
+          nama: 'Ir. Endang Mahyudin',
+          jabatan: 'Structural Expert',
+          exp: '26 Years'
         },
         {
           id: 8,
@@ -118,24 +118,24 @@ export default {
         },
         {
           id: 9,
-          img: 'https://cdn2.iconfinder.com/data/icons/lil-silhouettes/2176/person13-512.png',
-          nama: 'Ir. Andi Arman',
-          jabatan: 'Lorem Ipsum',
-          exp: '~ Years'
+          img: '/people13.jpg',
+          nama: 'Ir. Andy Arman',
+          jabatan: 'Structural Expert',
+          exp: '19 Years'
         },
         {
           id: 10,
-          img: 'https://cdn2.iconfinder.com/data/icons/lil-silhouettes/2176/person13-512.png',
+          img: '/people14.jpg',
           nama: 'Ir. Nugroho Budianto',
-          jabatan: 'Lorem Ipsum',
-          exp: '~ Years'
+          jabatan: 'Structural Expert',
+          exp: '18 Years'
         },
         {
           id: 11,
-          img: 'https://cdn2.iconfinder.com/data/icons/lil-silhouettes/2176/person13-512.png',
-          nama: 'Ir. Ayman',
-          jabatan: 'Lorem Ipsum',
-          exp: '~ Years'
+          img: '/people15.jpg',
+          nama: 'Ir. Aiman Purohito',
+          jabatan: 'Structural Expert',
+          exp: '11 Years'
         },
         {
           id: 12,
@@ -153,17 +153,17 @@ export default {
         },
         {
           id: 14,
-          img: 'https://cdn2.iconfinder.com/data/icons/lil-silhouettes/2176/person13-512.png',
+          img: '/people17.jpg',
           nama: 'Ir. Irawan Saleh',
-          jabatan: 'Lorem Ipsum',
-          exp: '~ Years'
+          jabatan: 'Architectural Expert',
+          exp: '13 Years'
         },
         {
           id: 15,
-          img: 'https://cdn2.iconfinder.com/data/icons/lil-silhouettes/2176/person13-512.png',
-          nama: 'Ir. Jajuli H',
-          jabatan: 'Lorem Ipsum',
-          exp: '~ Years'
+          img: '/people16.jpeg',
+          nama: 'Ir. Djadjuli Hasjim',
+          jabatan: 'Mechanical Expert',
+          exp: '30 Years'
         },
         {
           id: 16,
