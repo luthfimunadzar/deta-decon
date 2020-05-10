@@ -12,12 +12,12 @@
                     <div class="dropdown-group">
                         <b-dropdown right>
                             <template v-slot:button-content>
-                                <span class="d-md-block d-none">Investigation and<br/>Building Audits</span>
-                                <span class="d-md-none d-block">Investigation and Building Audits</span>
+                                <span class="d-md-block d-none">Investigation, Building <br/>Audits, Renovation</span>
+                                <span class="d-md-none d-block">Investigation, Building Audits, Renovation</span>
                             </template>
                             <b-dropdown-item @click="filtered('Structure Investigation')">Structure Investigation</b-dropdown-item>
                             <b-dropdown-item @click="filtered('Building Audit')">Building Audit</b-dropdown-item>
-                            <b-dropdown-item @click="filtered('Structure Strengthening & Design')">Structure Strengthening & Design</b-dropdown-item>
+                            <b-dropdown-item @click="filtered('Structure Strengthening & Renovation')">Structure Strengthening & Renovation</b-dropdown-item>
                         </b-dropdown>
                         <b-dropdown right>
                             <template v-slot:button-content>
@@ -113,21 +113,21 @@ export default {
               id: 1,
               nama: 'Gelora Bung Karno (GBK)',
               year: '2017-2018',
-              cat: 'Supervision and Construction Management',
+              cat: 'Construction Management',
               img: '/project-1.jpg',
           },
           {
               id: 2,
               nama: 'Athlete Villages Kemayoran',
               year: '2017-2018',
-              cat: 'Supervision and Construction Management, Architecture Planning and Design',
+              cat: 'Construction Management',
               img: '/project-2.jpg',
           },
           {
               id: 3,
               nama: 'Islamic University of Sultan Syarif Kasim',
               year: '2006-2008',
-              cat: 'Construction Management',
+              cat: 'Project Management & Supervision Consultant',
               img: '/project-3.jpg',
           },
           {
@@ -344,7 +344,7 @@ export default {
               id: 34,
               nama: 'Sarinah Building Jakarta',
               year: '2004-2005',
-              cat: 'Construction Management',
+              cat: 'Structure Investigation, Structure Strengthening & Renovation',
               img: '/project-34.jpg',
           },
           {
@@ -463,14 +463,14 @@ export default {
               id: 51,
               nama: 'Faculty of Economics and Islamic Business IAIN Batusangkar',
               year: '2017',
-              cat: 'Supervision and Construction Management',
+              cat: 'Construction Management',
               img: '/project-51.jpg',
           },
           {
               id: 52,
               nama: 'RUSUNAMI Sukaramai Medan',
               year: '2016',
-              cat: 'Supervision and Construction Management',
+              cat: 'Construction Management',
               img: '/project-52.jpg',
           },
           {
@@ -505,7 +505,7 @@ export default {
               id: 57,
               nama: 'PT. Sarinah (Persero)',
               year: '2017-2018',
-              cat: 'Building Audit',
+              cat: 'Supervision Consultant',
               img: '/project-57.jpg',
           },
           {

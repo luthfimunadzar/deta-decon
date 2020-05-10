@@ -12,7 +12,7 @@
         <h2>Construction Management & Supervision</h2>
       </b-carousel-slide>
       <b-carousel-slide img-src="/hero2.png">
-        <h2>Architecture, Planning, and Design</h2>
+        <h2>Architecture, Planning and Design</h2>
       </b-carousel-slide>
       <b-carousel-slide img-src="/hero3.jpg">
         <h2>Investigation & Building Audits</h2>
@@ -27,8 +27,11 @@
               <b-col md="6">
                 <div class="box red">
                   <div>
-                    <h4>Download DETA DECON 2020 Company Profile</h4>
-                    <a href="#" class="download">Download</a>
+                    <!-- <h4>Download DETA DECON 2020 Company Profile</h4>
+                    <a href="#" class="download">Download</a> -->
+                    <h3 class="mb-4">Deta Decon</h3>
+                    <h4 class="mb-0">Scope of Services:</h4>
+                    <!-- <h6>Scope of Services:</h6> -->
                   </div>
                 </div>
               </b-col>
