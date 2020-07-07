@@ -32,6 +32,7 @@ export default {
   plugins: [
     { src: '~/plugins/vue2-google-maps.js', mode: 'client' },
     { src: '~/plugins/vue-image-lightbox.js', mode: 'client' },
+    { src: '~plugins/ga.js', mode: 'client' },
   ],
   /*
   ** Nuxt.js dev-modules
