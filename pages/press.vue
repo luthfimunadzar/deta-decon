@@ -120,11 +120,12 @@ export default {
   },
   head () {
     return {
-      title: 'Press | Deta Decon',
+      title: 'Deta Decon - Press',
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         { hid: 'description', name: 'description', content: 'PT Deta Decon is a structural & civil consulting firm based in Jakarta, Indonesia. Founded in 1994, the 26-year old company has delivered excellence through the area of expertise in building structure, building skin, building performance, construction support services, property loss consulting and sustainability. ' },
-        { hid: 'og:title', name: 'og:title', content: 'Deta Decon' },
+        { hid: 'og:title', name: 'og:title', content: 'Deta Decon - Press' },
+        { hid: 'keywords', name: 'keywords', content: 'Deta Decon, PT Deta Decon, Deta, Decon, Construction, Civil, Indonesia'},
         { hid: 'og:description', name: 'og:description', content: 'PT Deta Decon is a structural & civil consulting firm based in Jakarta, Indonesia. Founded in 1994, the 26-year old company has delivered excellence through the area of expertise in building structure, building skin, building performance, construction support services, property loss consulting and sustainability. ' },
       ]
     }
