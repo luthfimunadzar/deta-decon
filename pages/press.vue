@@ -46,6 +46,13 @@ export default {
     return {
       awards: [
         {
+          id: 11,
+          img: 'https://cdn.medcom.id/dynamic/content/2020/06/18/1155683/2yaVXALmn6.jpg?w=1024',
+          title: 'Pasa Ateh Bukittinggi Dibangun dengan Konsep Green Building',
+          text: 'Kementerian Pekerjaan Umum dan Perumahan Rakyat (PUPR) telah menyelesaikan pembangunan kembali (rekonstruksi).',
+          link: 'https://www.medcom.id/properti/news-properti/eN40zV1N-pasa-ateh-bukittinggi-dibangun-dengan-konsep-green-building'
+        },
+        {
           id: 1,
           img: 'https://cdn1.katadata.co.id/media/images/temp/2018/01/17/2018_01_17-10_01_00_abe0245fd667d43642de627b52e98c92.jpg',
           title: 'Wajah Baru Gelora Bung Karno',
