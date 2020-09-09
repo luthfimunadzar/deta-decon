@@ -572,14 +572,14 @@ export default {
               img: '/project-66.jpg',
           },
           {
-              id: 65,
+              id: 67,
               nama: 'Pasar Atas Bukit Tinggi',
               year: '2019',
               cat: 'Construction Management',
               img: '/project-67.jpg',
           },
           {
-              id: 66,
+              id: 68,
               nama: 'UIN Sumatera Utara Medan',
               year: '2020',
               cat: 'Project Management & Supervision Consultant',
