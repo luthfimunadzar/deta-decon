@@ -46,6 +46,20 @@ export default {
     return {
       awards: [
         {
+          id: 13,
+          img: 'https://beritabeta.com/wp-content/uploads/2020/09/Polda-Maluku-ok.jpg',
+          title: 'Pembangunan Gedung Polda Maluku Telan Dana Rp 172 Miliar',
+          text: 'Gedung baru Polda Maluku mulai dibangun  oleh PT Adhikarya  Beyond Cunstruction. Pembangunan gedung yang berlokasi  di Tantui ...',
+          link: 'http://lassernewstoday.com/berita/nasional/gubernur-hadiri-pemancangan-tiang-kantor-polda-maluku/'
+        },
+        {
+          id: 12,
+          img: 'http://lassernewstoday.com/wp-content/uploads/2020/09/IMG_20200918_202933_469-1024x576.jpg',
+          title: 'Gubernur Hadiri Pemancangan Tiang Kantor Polda Maluku',
+          text: 'Gubernur Maluku, Murad Ismail, Jumat (18/09/2020) menghadiri acara pemancangan tiang pertama pembangunan konstruksi gedung ...',
+          link: 'http://lassernewstoday.com/berita/nasional/gubernur-hadiri-pemancangan-tiang-kantor-polda-maluku/'
+        },
+        {
           id: 11,
           img: 'https://cdn.medcom.id/dynamic/content/2020/06/18/1155683/2yaVXALmn6.jpg?w=1024',
           title: 'Pasa Ateh Bukittinggi Dibangun dengan Konsep Green Building',
@@ -72,13 +86,6 @@ export default {
           title: 'IsDB Biayai Pembangunan 4 Kampus PTKIN pada 2017',
           text: 'Konsultasn PT Deta Decon akan menangani paket 1 dan paket 2 di UIN Sumatera Utara dan Raden Fatah Palembang. PT Ciriajasa Cipta ...',
           link: 'https://www.republika.co.id/berita/pendidikan/dunia-kampus/16/11/23/oh3d9e396-isdb-biayai-pembangunan-4-kampus-ptkin-pada-2017'
-        },
-        {
-          id: 4,
-          img: 'https://netizen.media/wp-content/uploads/2018/01/megah-nan-mewah-750x430.jpg',
-          title: 'GBK Jakarta Kalahkan Stadion Wembley London',
-          text: 'Sedangkan konsultan manajemen konstruksinya PT Deta Decon dan PT Multi Karadiguna Jasa KSO dengan nilai kontrak Rp10,2 Miliar ...',
-          link: 'https://netizen.media/2018/01/14/gbk-jakarta-kalahkan-stadion-wembley-london/'
         },
         {
           id: 5,
