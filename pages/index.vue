@@ -22,6 +22,9 @@
     <div class="masonry">
       <b-container>
         <b-row no-gutters>
+          <b-col md="12">
+            <img src="/banner-duka.jpg" class="w-100" alt="">
+          </b-col>
           <b-col md="12" lg="8">
             <b-row no-gutters>
               <b-col md="6">
