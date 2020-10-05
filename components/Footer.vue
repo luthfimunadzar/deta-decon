@@ -6,6 +6,7 @@
           <h4>Contact</h4>
           <p>Telp: (021) 864 9905</p>
           <p>E-mail: detadecon94@yahoo.com </p>
+          <p>Other E-mail: detadc@gmail.com </p>
         </b-col>
         <b-col md="5" lg="5">
           <h4 class="mt-3 mt-md-0">Visit</h4>

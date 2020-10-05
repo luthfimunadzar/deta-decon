@@ -10,7 +10,8 @@
               <h4>Contact Us</h4>
               <p>
                 Telp: (021) 864 9905 <br/>
-                E-mail: detadecon94@yahoo.com 
+                E-mail: detadecon94@yahoo.com <br/>
+                Other E-mail: detadc@gmail.com
               </p>
             </div>
             <div class="info">

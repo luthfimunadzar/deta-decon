@@ -14,19 +14,40 @@
             
             <div class="info">
               <h4>People</h4>
-  
-              <b-row>
-                <b-col cols="6" md="4" lg="2" v-for="people in peoples" :key="people.id">
-                  <div class="board-item">
-                    <span class="image" :style="{ backgroundImage: 'url(' + people.img + ')'}"></span>
-                    <div class="text">
-                      <h5>{{ people.nama }}</h5>
-                      <h6>{{ people.jabatan }}</h6>
-                      <span>Exp. {{ people.exp }}</span>
+
+              <div class="wrap-people gray">
+                <h6 class="people-divide">Technical Experts</h6>
+                <b-row>
+                  <b-col cols="6" md="4" lg="2" v-for="people in peoples" :key="people.id">
+                    <div class="board-item">
+                      <span class="image" :style="{ backgroundImage: 'url(' + people.img + ')'}"></span>
+                      <div class="text">
+                        <h5>{{ people.nama }}</h5>
+                        <h6>{{ people.jabatan }}</h6>
+                        <span>Exp. {{ people.exp }}</span>
+                      </div>
                     </div>
-                  </div>
-                </b-col>
-              </b-row>
+                  </b-col>
+                </b-row>
+              </div>
+              
+
+              <div class="wrap-people">
+                <h6 class="people-divide">Operation</h6>
+              </div>
+              
+              <div class="wrap-people gray">
+                <h6 class="people-divide">Finance & Administration</h6>
+              </div>
+              
+              <div class="wrap-people">
+                <h6 class="people-divide">Logistics</h6>
+              </div>
+            </div>
+
+            <div class="info">
+              <h4>In Memoriam</h4>
+              <img src="/banner-duka.jpg" class="w-100" alt="">
             </div>
 
             <div class="info">
@@ -35,7 +56,7 @@
                 DetaDecon offers a rewarding career experience, a collaborative interdisciplinary environment, and the opportunity to work on some of Indonesia’s most exciting and transformative engineering, and planning projects.
               </p>
               <p>
-                Mail to: <a href="mailto:detadecon94@yahoo.com">detadecon94@yahoo.com</a> 
+                Mail to: <a href="mailto:detadecon94@yahoo.com">detadecon94@yahoo.com</a> or <a href="mailto:detadc@gmail.com">detadc@gmail.com</a>
               </p>
               <p>Subject: Name_Job Application</p>
             </div>
@@ -60,13 +81,13 @@ export default {
   data() {
     return {
       peoples: [
-        {
-          id: 1,
-          img: '/people1.jpg',
-          nama: 'Ir. Chairul Basri Nasution',
-          jabatan: 'President Director',
-          exp: '40 Years'
-        },
+        // {
+        //   id: 1,
+        //   img: '/people1.jpg',
+        //   nama: 'Ir. Chairul Basri Nasution',
+        //   jabatan: 'President Director',
+        //   exp: '40 Years'
+        // },
         {
           id: 2,
           img: '/people2.jpg',

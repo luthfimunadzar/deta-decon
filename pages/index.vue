@@ -10,12 +10,15 @@
     >
       <b-carousel-slide img-src="/hero.jpg">
         <h2>Construction Management & Supervision</h2>
+        <h6>Gelora Bung Karno (GBK)</h6>
       </b-carousel-slide>
       <b-carousel-slide img-src="/hero2.png">
         <h2>Architecture, Planning and Design</h2>
+        <h6>UIN Sultan Taha Jambi</h6>
       </b-carousel-slide>
       <b-carousel-slide img-src="/hero3.jpg">
         <h2>Investigation & Building Audits</h2>
+        <h6>Sarinah Building Jakarta</h6>
       </b-carousel-slide>
     </b-carousel>
 
@@ -85,7 +88,7 @@
           <b-col md="8">
             <div class="box image short">
               <div class="image-wrap" style="background-image: url('/home-1.jpg')"></div>
-              <h4>and 100+ more resilient and gigantic structures all over Indonesia</h4>
+              <h4>and 500+ more resilient and gigantic structures all over Indonesia</h4>
             </div>
           </b-col>
         </b-row>
@@ -133,6 +136,11 @@
             <img src="/partner-13.png" alt="" class="img-mp">
             <img src="/partner-14.png" alt="" class="img-mp">
             <img src="/partner-15.png" alt="" class="img-mp">
+          </b-col>
+          <b-col lg="12">
+            <div class="instagram-feed">
+              <div class="powr-instagram-feed" id="49559172_1601879308"></div><script src="https://www.powr.io/powr.js?platform=vuejs"></script>
+            </div>
           </b-col>
         </b-row>
       </b-container>

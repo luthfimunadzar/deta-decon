@@ -13,6 +13,21 @@
             font-size: 20px;
         }
     }
+    .wrap-people{
+        background-color: #f3f3f3;
+        padding: 30px 40px;
+        margin-bottom: 30px;
+        h6.people-divide{
+            font-size: 20px;
+            font-family: $b;
+            margin: 0px 0 15px 0;
+            color: $pri;
+            display: inline-block;
+            @media screen and (max-width: 767px) { 
+                font-size: 20px;
+            }
+        }
+    }
     p{
         font-size: 20px;
         line-height: 1.5;
