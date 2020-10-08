@@ -34,14 +34,50 @@
 
               <div class="wrap-people">
                 <h6 class="people-divide">Operation</h6>
+                <b-row>
+                  <b-col cols="6" md="4" lg="2" v-for="people in operation" :key="people.id">
+                    <div class="board-item">
+                      <span class="image" :style="{ backgroundImage: 'url(' + people.img + ')'}"></span>
+                      <div class="text">
+                        <h5>{{ people.nama }}</h5>
+                        <h6>{{ people.jabatan }}</h6>
+                        <span>Exp. {{ people.exp }}</span>
+                      </div>
+                    </div>
+                  </b-col>
+                </b-row>
               </div>
               
               <div class="wrap-people gray">
                 <h6 class="people-divide">Finance & Administration</h6>
+                <b-row>
+                  <b-col cols="6" md="4" lg="2" v-for="people in finance" :key="people.id">
+                    <div class="board-item">
+                      <span class="image" :style="{ backgroundImage: 'url(' + people.img + ')'}"></span>
+                      <div class="text">
+                        <h5>{{ people.nama }}</h5>
+                        <h6>{{ people.jabatan }}</h6>
+                        <span>Exp. {{ people.exp }}</span>
+                      </div>
+                    </div>
+                  </b-col>
+                </b-row>
               </div>
               
               <div class="wrap-people">
                 <h6 class="people-divide">Logistics</h6>
+                <b-row>
+                  <b-col cols="6" md="4" lg="2" v-for="people in logistic" :key="people.id">
+                    <div class="board-item">
+                      <span class="image" :style="{ backgroundImage: 'url(' + people.img + ')'}"></span>
+                      <div class="text">
+                        <h5>{{ people.nama }}</h5>
+                        <h6>{{ people.jabatan }}</h6>
+                        <span>Exp. {{ people.exp }}</span>
+                      </div>
+                    </div>
+                  </b-col>
+                </b-row>
               </div>
             </div>
 
@@ -193,7 +229,146 @@ export default {
           jabatan: 'Electrical Expert',
           exp: '18 Years'
         },
-      ]
+        {
+          id: 17,
+          img: '/people18.jpg',
+          nama: 'Ir. Imam Maryoko',
+          jabatan: 'Asisstant Mechanical, Electrical & Plumbing',
+          exp: '10 Years'
+        },
+        {
+          id: 18,
+          img: '/people19.jpg',
+          nama: 'Dedeh Setiawan, ST',
+          jabatan: 'Supervisor',
+          exp: '6 Years'
+        },
+        {
+          id: 19,
+          img: '/people26.jpg',
+          nama: 'Ir. Wuryan Irianto',
+          jabatan: 'Team Leader',
+          exp: '25 Years'
+        },
+        {
+          id: 20,
+          img: '/people20.jpg',
+          nama: 'Muchtar',
+          jabatan: 'Drafter',
+          exp: '8 Years'
+        },
+        {
+          id: 21,
+          img: '/people21.jpg',
+          nama: 'Nurhidayah, ST',
+          jabatan: 'Architectural Junior / Drafter Senior',
+          exp: '7 Years'
+        },
+        {
+          id: 22,
+          img: 'https://belllomaxmoreton.co.uk/images/uploads/images/agent-male.jpg',
+          nama: 'M. Nasirudin',
+          jabatan: 'Architectural Junior / Drafter Senior',
+          exp: '7 Years'
+        },
+      ],
+      operation: [
+        {
+          id: 1,
+          img: 'https://media.istockphoto.com/vectors/person-gray-photo-placeholder-woman-vector-id1133765698?b=1&k=6&m=1133765698&s=612x612&w=0&h=OJd2zN-RlU4jnLQ20y8gYD8DNRTs4GTtnoZqFga7B6c=',
+          nama: 'E Tri Susilawati, B.Sc',
+          jabatan: 'Finance & Administration Experts',
+          exp: '22 Years'
+        },
+        {
+          id: 2,
+          img: '/people22.jpg',
+          nama: 'Fitriaty K, ST.',
+          jabatan: 'Administration Project',
+          exp: '5 Years'
+        },
+        {
+          id: 3,
+          img: '/people23.jpg',
+          nama: 'Deni Setiawan, Amd',
+          jabatan: 'Administration',
+          exp: '6 Years'
+        },
+        {
+          id: 4,
+          img: '/people24.jpg',
+          nama: 'Deddy Rahmansyah',
+          jabatan: 'Administration',
+          exp: '18 Years'
+        },
+        {
+          id: 5,
+          img: 'https://belllomaxmoreton.co.uk/images/uploads/images/agent-male.jpg',
+          nama: 'Hadi Ismail',
+          jabatan: 'Administration',
+          exp: '6 Years'
+        },
+        {
+          id: 6,
+          img: '/people25.jpg',
+          nama: 'Shafira Salsabila, S.Kom',
+          jabatan: 'Administration',
+          exp: '2 Years'
+        },
+      ],
+      finance: [
+        {
+          id: 1,
+          img: 'https://belllomaxmoreton.co.uk/images/uploads/images/agent-male.jpg',
+          nama: 'Nasrudin',
+          jabatan: 'Office Boy',
+          exp: '10 Years'
+        },
+        {
+          id: 2,
+          img: '/people27.jpeg',
+          nama: 'Rahmat',
+          jabatan: 'Office Boy',
+          exp: '3 Years'
+        },
+        {
+          id: 3,
+          img: '/people28.jpeg',
+          nama: 'Andi Saputra',
+          jabatan: 'Office Boy',
+          exp: '2 Years'
+        },
+      ],
+      logistic: [
+        {
+          id: 1,
+          img: '/people29.jpeg',
+          nama: 'Sidin',
+          jabatan: 'Driver',
+          exp: '6 Years'
+        },
+        {
+          id: 2,
+          img: 'https://belllomaxmoreton.co.uk/images/uploads/images/agent-male.jpg',
+          nama: 'Suwarno',
+          jabatan: 'Driver',
+          exp: '6 Years'
+        },
+        {
+          id: 3,
+          img: '/people30.jpeg',
+          nama: 'Udin',
+          jabatan: 'Driver',
+          exp: '12 Years'
+        },
+        {
+          id: 4,
+          img: 'https://belllomaxmoreton.co.uk/images/uploads/images/agent-male.jpg',
+          nama: 'Eddy Slamet',
+          jabatan: 'Driver',
+          exp: '2 Years'
+        },
+      ],
     }
   },
   head () {

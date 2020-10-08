@@ -138,6 +138,7 @@
             <img src="/partner-15.png" alt="" class="img-mp">
           </b-col>
           <b-col lg="12">
+            <h4>Instagram</h4>
             <div class="instagram-feed">
               <div class="powr-instagram-feed" id="49559172_1601879308"></div><script src="https://www.powr.io/powr.js?platform=vuejs"></script>
             </div>

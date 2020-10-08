@@ -44,6 +44,14 @@
         </b-container>
     </div>
 
+    <b-container>
+        <b-row>
+            <b-col md="8" offset-md="2">
+                <iframe src="https://www.youtube.com/embed/1oRiiyjqEdM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video-project"></iframe>
+            </b-col>
+        </b-row>
+    </b-container>
+
     <div class="search">
       <b-container>
         <b-row>
@@ -584,6 +592,20 @@ export default {
               year: '2020',
               cat: 'Project Management & Supervision Consultant',
               img: '/project-68.jpeg',
+          },
+          {
+              id: 69,
+              nama: 'Rumah Susun Pasar Jumat',
+              year: '2018',
+              cat: 'Construction Management',
+              img: '/project-69.jpg',
+          },
+          {
+              id: 70,
+              nama: 'Polda Maluku',
+              year: '2020',
+              cat: 'Construction Management',
+              img: '/project-70.jpeg',
           },
       ],
       search: "",
