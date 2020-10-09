@@ -48,26 +48,10 @@
                 </b-row>
               </div>
               
-              <div class="wrap-people gray">>
-                <h6 class="people-divide">Operation</h6>
+              <div class="wrap-people gray">
+                <h6 class="people-divide">Operation and Logistics</h6>
                 <b-row>
                   <b-col cols="6" md="4" lg="2" v-for="people in operation" :key="people.id">
-                    <div class="board-item">
-                      <span class="image" :style="{ backgroundImage: 'url(' + people.img + ')'}"></span>
-                      <div class="text">
-                        <h5>{{ people.nama }}</h5>
-                        <h6>{{ people.jabatan }}</h6>
-                        <span>Exp. {{ people.exp }}</span>
-                      </div>
-                    </div>
-                  </b-col>
-                </b-row>
-              </div>
-              
-              <div class="wrap-people">
-                <h6 class="people-divide">Logistics</h6>
-                <b-row>
-                  <b-col cols="6" md="4" lg="2" v-for="people in logistic" :key="people.id">
                     <div class="board-item">
                       <span class="image" :style="{ backgroundImage: 'url(' + people.img + ')'}"></span>
                       <div class="text">
@@ -139,6 +123,20 @@ export default {
           exp: '35 Years'
         },
         {
+          id: 12,
+          img: '/people8.jpg',
+          nama: 'Ir. Fayandi Zakir',
+          jabatan: 'Architectural Expert',
+          exp: '31 Years'
+        },
+        {
+          id: 15,
+          img: '/people16.jpeg',
+          nama: 'Ir. Djadjuli Hasjim',
+          jabatan: 'Mechanical Expert',
+          exp: '30 Years'
+        },
+        {
           id: 4,
           img: '/people6.jpg',
           nama: 'Ir. Sudiro',
@@ -153,6 +151,20 @@ export default {
           exp: '27 Years'
         },
         {
+          id: 7,
+          img: '/people12.jpg',
+          nama: 'Ir. Endang Mahyudin',
+          jabatan: 'Structural Expert',
+          exp: '26 Years'
+        },
+        {
+          id: 19,
+          img: '/people26.jpg',
+          nama: 'Ir. Wuryan Irianto',
+          jabatan: 'Team Leader',
+          exp: '25 Years'
+        },
+        {
           id: 6,
           img: '/people9.jpg',
           nama: 'Ir. Yusuf Munawar',
@@ -160,11 +172,11 @@ export default {
           exp: '25 Years'
         },
         {
-          id: 7,
-          img: '/people12.jpg',
-          nama: 'Ir. Endang Mahyudin',
-          jabatan: 'Structural Expert',
-          exp: '26 Years'
+          id: 13,
+          img: '/people4.jpg',
+          nama: 'Ir. Devy Kartika',
+          jabatan: 'Architectural Expert',
+          exp: '25 Years'
         },
         {
           id: 8,
@@ -188,25 +200,11 @@ export default {
           exp: '18 Years'
         },
         {
-          id: 11,
-          img: '/people15.jpg',
-          nama: 'Ir. Aiman Purohito',
-          jabatan: 'Structural Expert',
-          exp: '11 Years'
-        },
-        {
-          id: 12,
-          img: '/people8.jpg',
-          nama: 'Ir. Fayandi Zakir',
-          jabatan: 'Architectural Expert',
-          exp: '31 Years'
-        },
-        {
-          id: 13,
-          img: '/people4.jpg',
-          nama: 'Ir. Devy Kartika',
-          jabatan: 'Architectural Expert',
-          exp: '25 Years'
+          id: 16,
+          img: '/people10.jpg',
+          nama: 'Ir. Rois',
+          jabatan: 'Electrical Expert',
+          exp: '18 Years'
         },
         {
           id: 14,
@@ -216,18 +214,11 @@ export default {
           exp: '13 Years'
         },
         {
-          id: 15,
-          img: '/people16.jpeg',
-          nama: 'Ir. Djadjuli Hasjim',
-          jabatan: 'Mechanical Expert',
-          exp: '30 Years'
-        },
-        {
-          id: 16,
-          img: '/people10.jpg',
-          nama: 'Ir. Rois',
-          jabatan: 'Electrical Expert',
-          exp: '18 Years'
+          id: 11,
+          img: '/people15.jpg',
+          nama: 'Ir. Aiman Purohito',
+          jabatan: 'Structural Expert',
+          exp: '11 Years'
         },
         {
           id: 17,
@@ -235,20 +226,6 @@ export default {
           nama: 'Ir. Imam Maryoko',
           jabatan: 'Asisstant Mechanical, Electrical & Plumbing',
           exp: '10 Years'
-        },
-        {
-          id: 18,
-          img: '/people19.jpg',
-          nama: 'Dedeh Setiawan, ST',
-          jabatan: 'Supervisor',
-          exp: '6 Years'
-        },
-        {
-          id: 19,
-          img: '/people26.jpg',
-          nama: 'Ir. Wuryan Irianto',
-          jabatan: 'Team Leader',
-          exp: '25 Years'
         },
         {
           id: 20,
@@ -271,6 +248,13 @@ export default {
           jabatan: 'Architectural Junior / Drafter Senior',
           exp: '7 Years'
         },
+        {
+          id: 18,
+          img: '/people19.jpg',
+          nama: 'Dedeh Setiawan, ST',
+          jabatan: 'Supervisor',
+          exp: '6 Years'
+        },
       ],
       finance: [
         {
@@ -281,11 +265,11 @@ export default {
           exp: '22 Years'
         },
         {
-          id: 2,
-          img: '/people22.jpg',
-          nama: 'Fitriaty K, ST.',
-          jabatan: 'Administration Project',
-          exp: '5 Years'
+          id: 4,
+          img: '/people24.jpg',
+          nama: 'Deddy Rahmansyah',
+          jabatan: 'Administration',
+          exp: '18 Years'
         },
         {
           id: 3,
@@ -295,18 +279,18 @@ export default {
           exp: '6 Years'
         },
         {
-          id: 4,
-          img: '/people24.jpg',
-          nama: 'Deddy Rahmansyah',
-          jabatan: 'Administration',
-          exp: '18 Years'
-        },
-        {
           id: 5,
           img: 'https://belllomaxmoreton.co.uk/images/uploads/images/agent-male.jpg',
           nama: 'Hadi Ismail',
           jabatan: 'Administration',
           exp: '6 Years'
+        },
+        {
+          id: 2,
+          img: '/people22.jpg',
+          nama: 'Fitriaty K, ST.',
+          jabatan: 'Administration Project',
+          exp: '5 Years'
         },
         {
           id: 6,
@@ -321,51 +305,49 @@ export default {
           id: 1,
           img: '/people32.jpeg',
           nama: 'Nasrudin',
-          jabatan: 'Office Boy',
+          jabatan: 'Office Administration',
           exp: '10 Years'
         },
         {
           id: 2,
           img: '/people27.jpeg',
           nama: 'Rahmat',
-          jabatan: 'Office Boy',
+          jabatan: 'Office Administration',
           exp: '3 Years'
+        },
+        {
+          id: 6,
+          img: '/people30.jpeg',
+          nama: 'Udin',
+          jabatan: 'Logistic Staff',
+          exp: '12 Years'
+        },
+        {
+          id: 4,
+          img: '/people29.jpeg',
+          nama: 'Sidin',
+          jabatan: 'Logistic Staff',
+          exp: '6 Years'
+        },
+        {
+          id: 5,
+          img: 'https://belllomaxmoreton.co.uk/images/uploads/images/agent-male.jpg',
+          nama: 'Suwarno',
+          jabatan: 'Logistic Staff',
+          exp: '6 Years'
         },
         {
           id: 3,
           img: '/people28.jpeg',
           nama: 'Andi Saputra',
-          jabatan: 'Office Boy',
+          jabatan: 'Office Administration',
           exp: '2 Years'
         },
-      ],
-      logistic: [
         {
-          id: 1,
-          img: '/people29.jpeg',
-          nama: 'Sidin',
-          jabatan: 'Driver',
-          exp: '6 Years'
-        },
-        {
-          id: 2,
-          img: 'https://belllomaxmoreton.co.uk/images/uploads/images/agent-male.jpg',
-          nama: 'Suwarno',
-          jabatan: 'Driver',
-          exp: '6 Years'
-        },
-        {
-          id: 3,
-          img: '/people30.jpeg',
-          nama: 'Udin',
-          jabatan: 'Driver',
-          exp: '12 Years'
-        },
-        {
-          id: 4,
+          id: 7,
           img: 'https://belllomaxmoreton.co.uk/images/uploads/images/agent-male.jpg',
           nama: 'Eddy Slamet',
-          jabatan: 'Driver',
+          jabatan: 'Logistic Staff',
           exp: '2 Years'
         },
       ],

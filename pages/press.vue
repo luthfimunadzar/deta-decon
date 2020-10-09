@@ -67,6 +67,13 @@ export default {
           link: 'https://www.medcom.id/properti/news-properti/eN40zV1N-pasa-ateh-bukittinggi-dibangun-dengan-konsep-green-building'
         },
         {
+          id: 14,
+          img: 'https://foto.wartaekonomi.co.id/files/arsip_foto_2018_03_15/infrastruktur_2018_03_15_102135_big.webp',
+          title: 'Jokowi Tinjau Rusun Ponpes An-Nawawi Tanara Banten',
+          text: 'Presiden Joko Widodo didampingi Menteri Pekerjaan Umum dan Perumahan Rakyat (PUPR) Basuki Hadimuljono meninjau Rumah Susun.',
+          link: 'https://www.wartaekonomi.co.id/read173775/jokowi-tinjau-rusun-ponpes-an-nawawi-tanara-banten'
+        },
+        {
           id: 1,
           img: 'https://cdn1.katadata.co.id/media/images/temp/2018/01/17/2018_01_17-10_01_00_abe0245fd667d43642de627b52e98c92.jpg',
           title: 'Wajah Baru Gelora Bung Karno',
@@ -74,11 +81,11 @@ export default {
           link: 'https://katadata.co.id/infografik/2018/01/17/wajah-baru-gelora-bung-karno'
         },
         {
-          id: 2,
-          img: 'https://img-k.okeinfo.net/content/2016/08/15/470/1464327/renovasi-gbk-kementerian-pupr-gandeng-9-perusahaan-konstruksi-fMsqqD3Bou.jpg',
-          title: 'Renovasi GBK, Kementerian PUPR Gandeng 9 Perusahaan Konstruksi',
-          text: 'Stadion Utama GBK oleh PT Deta Decon Rp9,5 miliar, Stadion Renang Aquatic PT Sangkuriang dengan nilai kontrak Rp4 miliar, ...',
-          link: 'https://economy.okezone.com/read/2016/08/15/470/1464327/renovasi-gbk-kementerian-pupr-gandeng-9-perusahaan-konstruksi'
+          id: 9,
+          img: 'https://ppdpp.id/wp-content/uploads/2018/03/rusun-ponpes-800x445.jpg',
+          title: 'Presiden Jokowi Tinjau Rusun Ponpes An-Nawawi Tanara Banten',
+          text: 'Presiden Joko Widodo didampingi Menteri Pekerjaan Umum dan Perumahan Rakyat (PUPR) Basuki Hadimuljono meninjau Rumah Susun ...',
+          link: 'https://indopos.co.id/read/2018/03/14/131130/presiden-jokowi-tinjau-rusun-ponpes-an-nawawi-tanara-banten/'
         },
         {
           id: 3,
@@ -93,6 +100,13 @@ export default {
           title: 'Pemerintah Optimistis Wisma Atlet Selesai 2017',
           text: 'Lalu Konsultan Manajemen Konstruksi untuk C2 adalah PT Yodya Karya dan untuk D10 adalah PT Bina Karya, PT Deta Decon dan PT ...',
           link: 'http://lombokita.com/pemerintah-optimistis-wisma-atlet-selesai-2017/'
+        },
+        {
+          id: 10,
+          img: 'https://img.okeinfo.net/content/2017/10/18/43/1797588/selain-museum-olahraga-ini-fasilitas-lain-yang-ditawarkan-stadion-utama-gelora-bung-karno-pVYDSgIAsJ.jpg',
+          title: 'Dilengkapi Fasilitas Canggih, Kemegahan SUGBK Angkat Citra Bangsa',
+          text: 'Stadion Utama Gelora Bung Karno (SUGBK) terus berpacu dengan waktu demi tampil cantik pada Asian Games 2018. Ajang olahraga ...',
+          link: 'https://sports.sindonews.com/berita/1249384/51/dilengkapi-fasilitas-canggih-kemegahan-sugbk-angkat-citra-bangsa'
         },
         {
           id: 6,
@@ -116,18 +130,11 @@ export default {
           link: 'https://www.solopos.com/kampus-di-semarang-kontrak-pembangunan-uin-semarang-ditandatangani-terealisasi-2017-771491'
         },
         {
-          id: 9,
-          img: 'https://ppdpp.id/wp-content/uploads/2018/03/rusun-ponpes-800x445.jpg',
-          title: 'Presiden Jokowi Tinjau Rusun Ponpes An-Nawawi Tanara Banten',
-          text: 'Presiden Joko Widodo didampingi Menteri Pekerjaan Umum dan Perumahan Rakyat (PUPR) Basuki Hadimuljono meninjau Rumah Susun ...',
-          link: 'https://indopos.co.id/read/2018/03/14/131130/presiden-jokowi-tinjau-rusun-ponpes-an-nawawi-tanara-banten/'
-        },
-        {
-          id: 10,
-          img: 'https://img.okeinfo.net/content/2017/10/18/43/1797588/selain-museum-olahraga-ini-fasilitas-lain-yang-ditawarkan-stadion-utama-gelora-bung-karno-pVYDSgIAsJ.jpg',
-          title: 'Dilengkapi Fasilitas Canggih, Kemegahan SUGBK Angkat Citra Bangsa',
-          text: 'Stadion Utama Gelora Bung Karno (SUGBK) terus berpacu dengan waktu demi tampil cantik pada Asian Games 2018. Ajang olahraga ...',
-          link: 'https://sports.sindonews.com/berita/1249384/51/dilengkapi-fasilitas-canggih-kemegahan-sugbk-angkat-citra-bangsa'
+          id: 2,
+          img: 'https://img-k.okeinfo.net/content/2016/08/15/470/1464327/renovasi-gbk-kementerian-pupr-gandeng-9-perusahaan-konstruksi-fMsqqD3Bou.jpg',
+          title: 'Renovasi GBK, Kementerian PUPR Gandeng 9 Perusahaan Konstruksi',
+          text: 'Stadion Utama GBK oleh PT Deta Decon Rp9,5 miliar, Stadion Renang Aquatic PT Sangkuriang dengan nilai kontrak Rp4 miliar, ...',
+          link: 'https://economy.okezone.com/read/2016/08/15/470/1464327/renovasi-gbk-kementerian-pupr-gandeng-9-perusahaan-konstruksi'
         },
       ]
     }

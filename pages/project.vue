@@ -47,7 +47,7 @@
     <b-container>
         <b-row>
             <b-col md="8" offset-md="2">
-                <iframe src="https://www.youtube.com/embed/1oRiiyjqEdM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video-project"></iframe>
+                <iframe src="https://www.youtube.com/embed/B8suluOznjU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video-project"></iframe>
             </b-col>
         </b-row>
     </b-container>
@@ -140,7 +140,7 @@ export default {
           },
           {
               id: 4,
-              nama: 'UIN Raden Patah Palembang',
+              nama: 'UIN Raden Fatah Palembang',
               year: '2017-2020',
               cat: 'Project Management & Supervision Consultant',
               img: '/project-4.jpg',

@@ -10,15 +10,15 @@
     >
       <b-carousel-slide img-src="/hero.jpg">
         <h2>Construction Management & Supervision</h2>
-        <h6>Gelora Bung Karno (GBK)</h6>
+        <h6>Gelora Bung Karno (GBK), Jakarta</h6>
       </b-carousel-slide>
       <b-carousel-slide img-src="/hero2.png">
         <h2>Architecture, Planning and Design</h2>
-        <h6>UIN Sultan Taha Jambi</h6>
+        <h6>UIN Sultan Taha, Jambi</h6>
       </b-carousel-slide>
       <b-carousel-slide img-src="/hero3.jpg">
         <h2>Investigation & Building Audits</h2>
-        <h6>Sarinah Building Jakarta</h6>
+        <h6>Sarinah Building, Jakarta</h6>
       </b-carousel-slide>
     </b-carousel>
 
@@ -88,7 +88,7 @@
           <b-col md="8">
             <div class="box image short">
               <div class="image-wrap" style="background-image: url('/home-1.jpg')"></div>
-              <h4>and 500+ more resilient and gigantic structures all over Indonesia</h4>
+              <h3>and 500+ more resilient and gigantic structures all over Indonesia</h3>
             </div>
           </b-col>
         </b-row>
@@ -109,6 +109,7 @@
             <img src="/client-9.png" alt="" class="img-mp">
             <img src="/client-7.png" alt="" class="img-mp">
             <img src="/client-8.jpg" alt="" class="img-mp">
+            <img src="/client-10.png" alt="" class="img-mp">
           </b-col>
           <b-col lg="4">
             <h4 class="mt-4 mt-lg-0">Media</h4>
@@ -118,6 +119,7 @@
             <img src="/media-4.png" alt="" class="img-mp">
             <img src="/media-5.png" alt="" class="img-mp">
             <img src="/media-6.png" alt="" class="img-mp">
+            <img src="/media-7.png" alt="" class="img-mp">
           </b-col>
           <b-col lg="12">
             <h4>Clients</h4>
@@ -138,7 +140,7 @@
             <img src="/partner-15.png" alt="" class="img-mp">
           </b-col>
           <b-col lg="12">
-            <h4>Instagram</h4>
+            <h4>Social Media Pages</h4>
             <div class="instagram-feed">
               <div class="powr-instagram-feed" id="49559172_1601879308"></div><script src="https://www.powr.io/powr.js?platform=vuejs"></script>
             </div>
