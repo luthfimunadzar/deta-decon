@@ -33,7 +33,7 @@
               
 
               <div class="wrap-people">
-                <h6 class="people-divide">Finance & Administration</h6
+                <h6 class="people-divide">Finance & Administration</h6>
                 <b-row>
                   <b-col cols="6" md="4" lg="2" v-for="people in finance" :key="people.id">
                     <div class="board-item">
@@ -275,7 +275,7 @@ export default {
       finance: [
         {
           id: 1,
-          img: 'https://media.istockphoto.com/vectors/person-gray-photo-placeholder-woman-vector-id1133765698?b=1&k=6&m=1133765698&s=612x612&w=0&h=OJd2zN-RlU4jnLQ20y8gYD8DNRTs4GTtnoZqFga7B6c=',
+          img: '/people31.jpeg',
           nama: 'E Tri Susilawati, B.Sc',
           jabatan: 'Finance & Administration Experts',
           exp: '22 Years'
@@ -319,7 +319,7 @@ export default {
       operation: [
         {
           id: 1,
-          img: 'https://belllomaxmoreton.co.uk/images/uploads/images/agent-male.jpg',
+          img: '/people32.jpeg',
           nama: 'Nasrudin',
           jabatan: 'Office Boy',
           exp: '10 Years'
