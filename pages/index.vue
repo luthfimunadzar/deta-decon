@@ -43,7 +43,7 @@
               </b-col>
               <b-col md="6">
                 <div class="box yellow">
-                  <h3>Architecture Planning and Design</h3>
+                  <h3>Supervision and Construction Management</h3>
                 </div>
               </b-col>
               <b-col md="12">
@@ -64,7 +64,7 @@
               </b-col>
               <b-col md="6" lg="12">
                 <div class="box yellow">
-                  <h3>Supervision and Construction Management</h3>
+                  <h3>Architecture Planning and Design</h3>
                 </div>
               </b-col>
             </b-row>

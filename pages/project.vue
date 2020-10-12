@@ -596,7 +596,7 @@ export default {
           {
               id: 69,
               nama: 'Rumah Susun Pasar Jumat',
-              year: '2018',
+              year: '2018-2020',
               cat: 'Construction Management',
               img: '/project-69.jpg',
           },
