@@ -9,7 +9,7 @@
             <div class="info">
               <h4>Who we are</h4>
 
-              <p>We are a collective of engineers, developers, architects, and planners working together to build a better future. Our firm, Deta Decon, is responsible for some of the Indonesia's most technically and environmentally advanced buildings and significant public spaces. Through mastery in Technical Expertise, our firm has maintaned its well-acknowledged reputation by succesfully provided the structural design for numerous of the government buildings, airports, state / grant universities, schools, apartments, residences, and corporate buildings throughout the land of Indonesia.</p>
+              <p>We are a collective of engineers, developers, architects, and planners working together to build a better future. Our firm, Deta Decon, is responsible for some of the Indonesia's most technically and environmentally advanced buildings and significant public spaces. Through mastery in Technical Expertise, our firm has maintaned its well-acknowledged reputation by succesfully provided the structural design for 500+ of the government buildings, airports, state / grant universities, schools, apartments, residences, and corporate buildings throughout the land of Indonesia.</p>
             </div>
             
             <div class="info">
@@ -67,6 +67,7 @@
 
             <div class="info">
               <h4>In Memoriam</h4>
+              <p>PT Deta Decon was founded in Jakarta in 1994 by Ir. Chairul Basri Nasution. With a portfolio spanning hundreds of projects across the country, Deta Decon is one of the most significant & highly respected construction consultant firm in Indonesia.</p>
               <img src="/banner-duka.jpg" class="w-100" alt="">
             </div>
 
@@ -79,6 +80,9 @@
                 Mail to: <a href="mailto:detadecon94@yahoo.com">detadecon94@yahoo.com</a> or <a href="mailto:detadc@gmail.com">detadc@gmail.com</a>
               </p>
               <p>Subject: Name_Job Application</p>
+              <p>Stay updated regarding our Job Vacancy through:</p>
+              <p>LinkedIn Page: <a href="https://www.linkedin.com/company/deta-decon" target="_blank">https://www.linkedin.com/company/deta-decon</a></p>
+              <p>Facebook Page: <a href="https://www.facebook.com/DetaDecon/" target="_blank">https://www.facebook.com/DetaDecon/</a></p>
             </div>
           </b-col>
         </b-row>
@@ -116,6 +120,20 @@ export default {
           exp: '38 Years'
         },
         {
+          id: 19,
+          img: '/people26.jpg',
+          nama: 'Ir. Wuryan Irianto',
+          jabatan: 'Head of Construction Supervision and Management',
+          exp: '35 Years'
+        },
+        {
+          id: 24,
+          img: 'https://belllomaxmoreton.co.uk/images/uploads/images/agent-male.jpg',
+          nama: 'Budiyanto',
+          jabatan: 'Lighting and Power Installation Engineer',
+          exp: '39 Years'
+        },
+        {
           id: 3,
           img: '/people3.jpg',
           nama: 'Ir. Azwar Muchtasar',
@@ -123,10 +141,10 @@ export default {
           exp: '35 Years'
         },
         {
-          id: 19,
-          img: '/people26.jpg',
-          nama: 'Ir. Wuryan Irianto',
-          jabatan: 'Team Leader',
+          id: 23,
+          img: 'https://belllomaxmoreton.co.uk/images/uploads/images/agent-male.jpg',
+          nama: 'Asnawi Lubis',
+          jabatan: 'Network Installation Technician',
           exp: '35 Years'
         },
         {
@@ -179,6 +197,13 @@ export default {
           exp: '25 Years'
         },
         {
+          id: 25,
+          img: 'https://belllomaxmoreton.co.uk/images/uploads/images/agent-male.jpg',
+          nama: 'Syahran Zamil',
+          jabatan: 'Electrical Engineer',
+          exp: '25 Years'
+        },
+        {
           id: 8,
           img: '/people11.jpg',
           nama: 'Ir. Wahyu Raharjo',
@@ -207,6 +232,13 @@ export default {
           exp: '18 Years'
         },
         {
+          id: 26,
+          img: 'https://belllomaxmoreton.co.uk/images/uploads/images/agent-male.jpg',
+          nama: 'Ir. Dedy Indrajaya',
+          jabatan: 'Civil Engineer',
+          exp: '17 Years'
+        },
+        {
           id: 14,
           img: '/people17.jpg',
           nama: 'Ir. Irawan Saleh',
@@ -224,7 +256,7 @@ export default {
           id: 17,
           img: '/people18.jpg',
           nama: 'Ir. Imam Maryoko',
-          jabatan: 'Asisstant Mechanical, Electrical & Plumbing',
+          jabatan: 'Mechanical, Electrical & Plumbing Supervisor',
           exp: '10 Years'
         },
         {
@@ -235,17 +267,38 @@ export default {
           exp: '8 Years'
         },
         {
+          id: 27,
+          img: 'https://belllomaxmoreton.co.uk/images/uploads/images/agent-male.jpg',
+          nama: 'Ir. Panji Muslihan',
+          jabatan: 'Civil Engineer',
+          exp: '8 Years'
+        },
+        {
+          id: 28,
+          img: 'https://belllomaxmoreton.co.uk/images/uploads/images/agent-male.jpg',
+          nama: 'Ir. Ragil Hardigaluh',
+          jabatan: 'Civil Engineer',
+          exp: '8 Years'
+        },
+        {
           id: 21,
           img: '/people21.jpg',
           nama: 'Nurhidayah, ST',
-          jabatan: 'Architectural Junior / Drafter Senior',
+          jabatan: 'Architect & Drafter',
           exp: '7 Years'
         },
         {
           id: 22,
           img: 'https://belllomaxmoreton.co.uk/images/uploads/images/agent-male.jpg',
           nama: 'M. Nasirudin',
-          jabatan: 'Architectural Junior / Drafter Senior',
+          jabatan: 'Architect & Drafter',
+          exp: '7 Years'
+        },
+        {
+          id: 29,
+          img: 'https://belllomaxmoreton.co.uk/images/uploads/images/agent-male.jpg',
+          nama: 'Ir. Kandiyas Sakta Oihual',
+          jabatan: 'Building Engineering Expert',
           exp: '7 Years'
         },
         {
@@ -255,13 +308,20 @@ export default {
           jabatan: 'Supervisor',
           exp: '6 Years'
         },
+        {
+          id: 30,
+          img: '/people33.jpg',
+          nama: 'Ir. Rico Afriandi, ST.',
+          jabatan: 'Architect',
+          exp: '4 Years'
+        },
       ],
       finance: [
         {
           id: 1,
           img: '/people31.jpeg',
           nama: 'E Tri Susilawati, B.Sc',
-          jabatan: 'Finance & Administration Experts',
+          jabatan: 'Head of Finance & Administration ',
           exp: '22 Years'
         },
         {
@@ -280,7 +340,7 @@ export default {
         },
         {
           id: 5,
-          img: 'https://belllomaxmoreton.co.uk/images/uploads/images/agent-male.jpg',
+          img: '/people34.jpg',
           nama: 'Hadi Ismail',
           jabatan: 'Administration',
           exp: '6 Years'
@@ -289,7 +349,7 @@ export default {
           id: 2,
           img: '/people22.jpg',
           nama: 'Fitriaty K, ST.',
-          jabatan: 'Administration Project',
+          jabatan: 'Project Administration',
           exp: '5 Years'
         },
         {
@@ -305,15 +365,8 @@ export default {
           id: 1,
           img: '/people32.jpeg',
           nama: 'Nasrudin',
-          jabatan: 'Office Administration',
+          jabatan: 'Head of Operation & Logistics',
           exp: '10 Years'
-        },
-        {
-          id: 2,
-          img: '/people27.jpeg',
-          nama: 'Rahmat',
-          jabatan: 'Office Administration',
-          exp: '3 Years'
         },
         {
           id: 6,
@@ -335,6 +388,13 @@ export default {
           nama: 'Suwarno',
           jabatan: 'Logistic Staff',
           exp: '6 Years'
+        },
+        {
+          id: 2,
+          img: '/people27.jpeg',
+          nama: 'Rahmat',
+          jabatan: 'Office Administration',
+          exp: '3 Years'
         },
         {
           id: 3,

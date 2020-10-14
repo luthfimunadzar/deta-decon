@@ -19,6 +19,7 @@
           <a href="https://www.facebook.com/DetaDecon/" target="_blank" class="socmed"><i class="fab fa-facebook-f"></i></a>
           <a href="https://www.linkedin.com/company/deta-decon" target="_blank" class="socmed"><i class="fab fa-linkedin-in"></i></a>
           <a href="https://www.instagram.com/deta_decon/" target="_blank" class="socmed"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UCORtbOIHwWzO7WKQw3Vk-rA" target="_blank" class="socmed"><i class="fab fa-youtube"></i></a>
           <a href="mailto:detadecon94@yahoo.com" class="socmed"><i class="far fa-envelope"></i></a>
           <p class="copyright">©2020 Deta Decon</p>
         </b-col>
