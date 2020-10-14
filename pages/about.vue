@@ -123,6 +123,13 @@ export default {
           exp: '35 Years'
         },
         {
+          id: 19,
+          img: '/people26.jpg',
+          nama: 'Ir. Wuryan Irianto',
+          jabatan: 'Team Leader',
+          exp: '35 Years'
+        },
+        {
           id: 12,
           img: '/people8.jpg',
           nama: 'Ir. Fayandi Zakir',
@@ -156,13 +163,6 @@ export default {
           nama: 'Ir. Endang Mahyudin',
           jabatan: 'Structural Expert',
           exp: '26 Years'
-        },
-        {
-          id: 19,
-          img: '/people26.jpg',
-          nama: 'Ir. Wuryan Irianto',
-          jabatan: 'Team Leader',
-          exp: '25 Years'
         },
         {
           id: 6,

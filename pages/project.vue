@@ -46,8 +46,11 @@
 
     <b-container>
         <b-row>
-            <b-col md="8" offset-md="2">
+            <b-col md="6">
                 <iframe src="https://www.youtube.com/embed/B8suluOznjU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video-project"></iframe>
+            </b-col>
+            <b-col md="6">
+                <iframe src="https://www.youtube.com/embed/BqaUuCYlsJQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video-project"></iframe>
             </b-col>
         </b-row>
     </b-container>
