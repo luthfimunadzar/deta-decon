@@ -310,7 +310,7 @@ export default {
         },
         {
           id: 30,
-          img: '/people33.jpg',
+          img: '/people33.jpeg',
           nama: 'Ir. Rico Afriandi, ST.',
           jabatan: 'Architect',
           exp: '4 Years'
@@ -384,7 +384,7 @@ export default {
         },
         {
           id: 5,
-          img: 'https://belllomaxmoreton.co.uk/images/uploads/images/agent-male.jpg',
+          img: '/people36.jpeg',
           nama: 'Suwarno',
           jabatan: 'Logistic Staff',
           exp: '6 Years'
@@ -405,7 +405,7 @@ export default {
         },
         {
           id: 7,
-          img: 'https://belllomaxmoreton.co.uk/images/uploads/images/agent-male.jpg',
+          img: '/people35.jpeg',
           nama: 'Eddy Slamet',
           jabatan: 'Logistic Staff',
           exp: '2 Years'
