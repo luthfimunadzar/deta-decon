@@ -128,7 +128,7 @@ export default {
         },
         {
           id: 24,
-          img: 'https://belllomaxmoreton.co.uk/images/uploads/images/agent-male.jpg',
+          img: '/people40.jpeg',
           nama: 'Budiyanto',
           jabatan: 'Lighting and Power Installation Engineer',
           exp: '39 Years'
@@ -142,7 +142,7 @@ export default {
         },
         {
           id: 23,
-          img: 'https://belllomaxmoreton.co.uk/images/uploads/images/agent-male.jpg',
+          img: '/people39.jpeg',
           nama: 'Asnawi Lubis',
           jabatan: 'Network Installation Technician',
           exp: '35 Years'
@@ -197,13 +197,6 @@ export default {
           exp: '25 Years'
         },
         {
-          id: 25,
-          img: 'https://belllomaxmoreton.co.uk/images/uploads/images/agent-male.jpg',
-          nama: 'Syahran Zamil',
-          jabatan: 'Electrical Engineer',
-          exp: '25 Years'
-        },
-        {
           id: 8,
           img: '/people11.jpg',
           nama: 'Ir. Wahyu Raharjo',
@@ -232,18 +225,18 @@ export default {
           exp: '18 Years'
         },
         {
-          id: 26,
-          img: 'https://belllomaxmoreton.co.uk/images/uploads/images/agent-male.jpg',
-          nama: 'Ir. Dedy Indrajaya',
-          jabatan: 'Civil Engineer',
-          exp: '17 Years'
-        },
-        {
           id: 14,
           img: '/people17.jpg',
           nama: 'Ir. Irawan Saleh',
           jabatan: 'Architectural Expert',
           exp: '13 Years'
+        },
+        {
+          id: 25,
+          img: '/people41.jpeg',
+          nama: 'Fauzzul Musamma ST.',
+          jabatan: 'Occupational Safety & Health ',
+          exp: '11 Years'
         },
         {
           id: 11,
@@ -267,20 +260,6 @@ export default {
           exp: '8 Years'
         },
         {
-          id: 27,
-          img: 'https://belllomaxmoreton.co.uk/images/uploads/images/agent-male.jpg',
-          nama: 'Ir. Panji Muslihan',
-          jabatan: 'Civil Engineer',
-          exp: '8 Years'
-        },
-        {
-          id: 28,
-          img: 'https://belllomaxmoreton.co.uk/images/uploads/images/agent-male.jpg',
-          nama: 'Ir. Ragil Hardigaluh',
-          jabatan: 'Civil Engineer',
-          exp: '8 Years'
-        },
-        {
           id: 21,
           img: '/people21.jpg',
           nama: 'Nurhidayah, ST',
@@ -289,17 +268,24 @@ export default {
         },
         {
           id: 22,
-          img: 'https://belllomaxmoreton.co.uk/images/uploads/images/agent-male.jpg',
+          img: '/people37.jpeg',
           nama: 'M. Nasirudin',
           jabatan: 'Architect & Drafter',
           exp: '7 Years'
         },
         {
           id: 29,
-          img: 'https://belllomaxmoreton.co.uk/images/uploads/images/agent-male.jpg',
+          img: '/people38.jpeg',
           nama: 'Ir. Kandiyas Sakta Oihual',
           jabatan: 'Building Engineering Expert',
           exp: '7 Years'
+        },
+        {
+          id: 26,
+          img: '/people42.jpeg',
+          nama: 'Rio Rahmadhani, ST',
+          jabatan: 'Civil Engineer',
+          exp: '6 Years'
         },
         {
           id: 18,
