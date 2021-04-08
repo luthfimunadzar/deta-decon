@@ -24,10 +24,10 @@
             </div>
 
             <div class="info">
-              <h4>Board of Directors</h4>
+              <h4 class="text-center red">Board of Directors</h4>
 
               <div class="wrap-people gray">
-                <b-row>
+                <b-row class="justify-content-center">
                   <b-col
                     cols="6"
                     md="4"
@@ -49,10 +49,6 @@
                   </b-col>
                 </b-row>
               </div>
-            </div>
-
-            <div class="info">
-              <h4>People</h4>
 
               <div class="wrap-people gray">
                 <h6 class="people-divide">Technical Experts</h6>
@@ -202,7 +198,7 @@ export default {
         {
           id: 2,
           img: "/people43.png",
-          nama: "Satrio Rama Widyowicaksono",
+          nama: "Satrio Rama Widyowicaksono S.Ip., M.Sc",
           jabatan: "Managing Director"
           // exp: "40 Years"
         }

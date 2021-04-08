@@ -1,65 +1,69 @@
-.info{
-    border-top: 5px solid $sec;
-    margin-bottom: 50px;
-    @media screen and (max-width: 767px) { 
-        margin-bottom: 30px;
+.info {
+  border-top: 5px solid $sec;
+  margin-bottom: 50px;
+  @media screen and (max-width: 767px) {
+    margin-bottom: 30px;
+  }
+  h4 {
+    font-size: 25px;
+    font-family: $b;
+    margin: 13px 0 15px 0;
+    color: $t;
+    @media screen and (max-width: 767px) {
+      font-size: 20px;
     }
-    h4{
-        font-size: 25px;
-        font-family: $b;
-        margin: 13px 0 15px 0;
-        color: $t;
-        @media screen and (max-width: 767px) { 
-            font-size: 20px;
-        }
+    &.red {
+      color: $pri;
     }
-    .wrap-people{
-        background-color: #f3f3f3;
-        padding: 30px 40px;
-        margin-bottom: 30px;
-        h6.people-divide{
-            font-size: 20px;
-            font-family: $b;
-            margin: 0px 0 15px 0;
-            color: $pri;
-            display: inline-block;
-            @media screen and (max-width: 767px) { 
-                font-size: 20px;
-            }
-        }
-    }
-    p{
+  }
+  .wrap-people {
+    background-color: #f3f3f3;
+    padding: 30px 40px;
+    margin-bottom: 30px;
+    h6.people-divide {
+      font-size: 20px;
+      font-family: $b;
+      margin: 0px 0 15px 0;
+      color: $pri;
+      display: inline-block;
+      @media screen and (max-width: 767px) {
         font-size: 20px;
-        line-height: 1.5;
-        @media screen and (max-width: 767px) { 
-            font-size: 16px;
-        }
+      }
     }
-    .socmed{
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50%;
-        background-color: #707070;
-        color: $wt;
-        width: 34px;
-        height: 34px;
-        font-size: 20px;
-        margin-right: 15px;
-        transition: all 0.3s ease;
-        @media screen and (max-width: 1199px) { 
-            margin-right: 5px;
-        }
-        &:hover, &:focus{
-            text-decoration: none;
-            background-color: $sec;
-        }
+  }
+  p {
+    font-size: 20px;
+    line-height: 1.5;
+    @media screen and (max-width: 767px) {
+      font-size: 16px;
     }
-    .vue-map-container{
-        width: 100%;
-        height: 700px;
-        @media screen and (max-width: 767px) { 
-            height: 450px;
-        }
+  }
+  .socmed {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #707070;
+    color: $wt;
+    width: 34px;
+    height: 34px;
+    font-size: 20px;
+    margin-right: 15px;
+    transition: all 0.3s ease;
+    @media screen and (max-width: 1199px) {
+      margin-right: 5px;
     }
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      background-color: $sec;
+    }
+  }
+  .vue-map-container {
+    width: 100%;
+    height: 700px;
+    @media screen and (max-width: 767px) {
+      height: 450px;
+    }
+  }
 }
