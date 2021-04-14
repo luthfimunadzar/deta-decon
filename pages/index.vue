@@ -168,7 +168,7 @@
             <img src="/partner-14.png" alt="" class="img-mp" />
             <img src="/partner-15.png" alt="" class="img-mp" />
           </b-col>
-          <b-col lg="12">
+          <b-col lg="12" class="d-none">
             <h4>Social Media Pages</h4>
             <div class="instagram-feed">
               <div class="powr-instagram-feed" id="49559172_1601879308"></div>
