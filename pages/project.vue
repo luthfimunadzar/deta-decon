@@ -85,7 +85,7 @@
 
     <b-container>
       <b-row>
-        <b-col md="6">
+        <b-col md="4">
           <iframe
             src="https://www.youtube.com/embed/B8suluOznjU"
             frameborder="0"
@@ -94,9 +94,18 @@
             class="video-project"
           ></iframe>
         </b-col>
-        <b-col md="6">
+        <b-col md="4">
           <iframe
             src="https://www.youtube.com/embed/BqaUuCYlsJQ"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            class="video-project"
+          ></iframe>
+        </b-col>
+        <b-col md="4">
+          <iframe
+            src="https://www.youtube.com/embed/AjWVhnk0-2w"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
