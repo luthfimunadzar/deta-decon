@@ -196,6 +196,13 @@ export default {
       dataProject: [
         // old
         {
+          id: 72,
+          nama: "Universitas Negeri Jakarta",
+          year: "2022",
+          cat: "Project Management & Supervision Consultant",
+          img: "/project-72.jpg"
+        },
+        {
           id: 71,
           nama: "Rumah Sakit Pelni",
           year: "2022",
