@@ -12,9 +12,9 @@
         <h2>Construction Management & Supervision</h2>
         <h6>Gelora Bung Karno (GBK), Jakarta</h6>
       </b-carousel-slide>
-      <b-carousel-slide img-src="/hero2.png">
+      <b-carousel-slide img-src="/project-71.jpeg">
         <h2>Architecture, Planning and Design</h2>
-        <h6>UIN Sultan Taha, Jambi</h6>
+        <h6>Rumah Sakit PELNI, Jakarta Barat</h6>
       </b-carousel-slide>
       <b-carousel-slide img-src="/hero3.jpg">
         <h2>Investigation & Building Audits</h2>
@@ -96,7 +96,8 @@
             <div class="box red text-left">
               <p>
                 PT Deta Decon is a structural & civil consulting firm based in
-                Jakarta, Indonesia. Founded in 1994, the 26-year old company has
+                Jakarta, Indonesia. Founded in 1994, the
+                {{ new Date().getFullYear() - 1994 }}-year old company has
                 delivered excellence through the area of expertise in building
                 structure, building skin, building performance, construction
                 support services, property loss consulting and sustainability.
