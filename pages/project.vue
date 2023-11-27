@@ -211,7 +211,7 @@ export default {
         },
         {
           id: 73,
-          nama: "Ibu Kota Nusantara Rumah Susun",
+          nama: "Rumah Susun ASN, Ibu Kota Nusantara",
           year: "2023",
           cat: "Detail Engineering Design, Architecture Design, Structure Design, Mechanical, Electrical and Plumbing Design",
           img: "/project-73.jpeg"
