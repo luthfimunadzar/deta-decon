@@ -507,7 +507,7 @@ export default {
           hid: "description",
           name: "description",
           content:
-            "PT Deta Decon is a structural & civil consulting firm based in Jakarta, Indonesia. Founded in 1994, the 26-year old company has delivered excellence through the area of expertise in building structure, building skin, building performance, construction support services, property loss consulting and sustainability. "
+          `PT Deta Decon is a structural & civil consulting firm based in Jakarta, Indonesia. Founded in 1994, the ${new Date().getFullYear() - 1994 }-year old company has delivered excellence through the area of expertise in building structure, building skin, building performance, construction support services, property loss consulting and sustainability. `
         },
         { hid: "og:title", name: "og:title", content: "Deta Decon - About" },
         {
@@ -520,7 +520,7 @@ export default {
           hid: "og:description",
           name: "og:description",
           content:
-            "PT Deta Decon is a structural & civil consulting firm based in Jakarta, Indonesia. Founded in 1994, the 26-year old company has delivered excellence through the area of expertise in building structure, building skin, building performance, construction support services, property loss consulting and sustainability. "
+          `PT Deta Decon is a structural & civil consulting firm based in Jakarta, Indonesia. Founded in 1994, the ${new Date().getFullYear() - 1994 }-year old company has delivered excellence through the area of expertise in building structure, building skin, building performance, construction support services, property loss consulting and sustainability. `
         }
       ]
     };
