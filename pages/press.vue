@@ -49,6 +49,17 @@ export default {
     return {
       awards: [
         {
+          id: 16,
+          img:
+            "https://asset.kompas.com/crops/3wxcRo2YnLvIHgbSpL4gZ6Xy8gs=/143x0:1493x900/750x500/data/photo/2023/06/09/648310c4766a5.jpeg",
+          title:
+            "Topping Off, Tim SFD UNJ Usung Konsep 'Smart and Green Building' untuk UNJ Phase-2",
+          text:
+            " Universitas Negeri Jakarta (UNJ) menjadi salah satu perguruan tinggi negeri yang mendapatkan pinjaman Pemerintah Kerajaan Saudi Arabia melalui Saudi Fund for Development (SFD) ...",
+          link:
+            "https://www.kompas.com/edu/read/2023/06/09/210000671/topping-off-tim-sfd-unj-usung-konsep-smart-and-green-building-untuk-unj"
+        },
+        {
           id: 14,
           img:
             "https://static.republika.co.id/uploads/images/inpicture_slide/universitas-negeri-jakarta-unj-mendapatkan-kunjungan-dari-pemerintah_220314194841-851.jpeg",
@@ -90,7 +101,7 @@ export default {
             "https://www.medcom.id/properti/news-properti/eN40zV1N-pasa-ateh-bukittinggi-dibangun-dengan-konsep-green-building"
         },
         {
-          id: 14,
+          id: 15,
           img:
             "https://foto.wartaekonomi.co.id/files/arsip_foto_2018_03_15/infrastruktur_2018_03_15_102135_big.webp",
           title: "Jokowi Tinjau Rusun Ponpes An-Nawawi Tanara Banten",
