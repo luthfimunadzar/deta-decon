@@ -199,21 +199,21 @@ export default {
           id: 75,
           nama: "Tugu Nol Kalimantan",
           year: "2023",
-          cat: "Detail Engineering Design, Architecture Design, Structure Design, Mechanical, Electrical and Plumbing Design",
+          cat: "Detail Engineering Design",
           img: "/project-75.jpeg"
         },
         {
           id: 74,
           nama: "Rumah Sakit Umum Persahabatan Rawamangun Jakarta Timur",
           year: "2023",
-          cat: "Detail Engineering Design, Architecture Design, Structure Design, Mechanical, Electrical and Plumbing Design",
+          cat: "Construction Management",
           img: "/project-74.jpeg"
         },
         {
           id: 73,
           nama: "Rumah Susun ASN, Ibu Kota Nusantara",
           year: "2023",
-          cat: "Detail Engineering Design, Architecture Design, Structure Design, Mechanical, Electrical and Plumbing Design",
+          cat: "Detail Engineering Design",
           img: "/project-73.jpeg"
         },
         {
