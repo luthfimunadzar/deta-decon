@@ -196,6 +196,13 @@ export default {
       dataProject: [
         // old
         {
+          id: 76,
+          nama: "Pasar Raya Kota Padang",
+          year: "2023-2024",
+          cat: "Construction Management",
+          img: "/project-76.jpg"
+        },
+        {
           id: 75,
           nama: "Tugu Nol Kalimantan",
           year: "2023",

@@ -51,11 +51,22 @@ export default {
         {
           id: 16,
           img:
+            "https://cdn.rri.co.id/berita/13/images/1695205682852-2/1695205682852-2.jpeg",
+          title:
+            "Pembangunan Pasar Raya Fase VII Ditargetkan Tuntas Juli 2024",
+          text:
+            "Perkembangan pembangunan gedung Pasar Raya Fase VII Kota Padang telah mencapai 7,3 persen. Pembangunan ditargetkan tuntas pada Juli 2024 ...",
+          link:
+            "https://www.rri.co.id/padang/daerah/366722/pembangunan-pasar-raya-fase-vii-ditargetkan-tuntas-juli-2024?utm_source=news_main&utm_medium=internal_link&utm_campaign=general_campaign"
+        },
+        {
+          id: 16,
+          img:
             "https://asset.kompas.com/crops/3wxcRo2YnLvIHgbSpL4gZ6Xy8gs=/143x0:1493x900/750x500/data/photo/2023/06/09/648310c4766a5.jpeg",
           title:
             "Topping Off, Tim SFD UNJ Usung Konsep 'Smart and Green Building' untuk UNJ Phase-2",
           text:
-            " Universitas Negeri Jakarta (UNJ) menjadi salah satu perguruan tinggi negeri yang mendapatkan pinjaman Pemerintah Kerajaan Saudi Arabia melalui Saudi Fund for Development (SFD) ...",
+            "Universitas Negeri Jakarta (UNJ) menjadi salah satu perguruan tinggi negeri yang mendapatkan pinjaman Pemerintah Kerajaan Saudi Arabia melalui Saudi Fund for Development (SFD) ...",
           link:
             "https://www.kompas.com/edu/read/2023/06/09/210000671/topping-off-tim-sfd-unj-usung-konsep-smart-and-green-building-untuk-unj"
         },
