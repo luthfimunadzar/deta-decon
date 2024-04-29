@@ -192,14 +192,14 @@ export default {
           id: 1,
           img: "/people2.jpg",
           nama: "Ir. Mardiana Daoed",
-          jabatan: "President Director"
+          jabatan: "Managing Director"
           // exp: "38 Years"
         },
         {
           id: 2,
           img: "/people43.png",
           nama: "Satrio Rama Widyowicaksono S.Ip., M.Sc",
-          jabatan: "Managing Director"
+          jabatan: "President Director"
           // exp: "40 Years"
         }
       ],
