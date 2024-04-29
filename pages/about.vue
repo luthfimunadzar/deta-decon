@@ -192,7 +192,7 @@ export default {
           id: 1,
           img: "/people2.jpg",
           nama: "Ir. Mardiana Daoed",
-          jabatan: "Managing Director"
+          jabatan: "Director of Engineering"
           // exp: "38 Years"
         },
         {
