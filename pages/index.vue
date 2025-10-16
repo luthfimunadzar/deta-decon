@@ -182,6 +182,8 @@
             <img src="/partner-15.png" alt="" class="img-mp" />
             <img src="/partner-16.png" alt="" class="img-mp" />
             <img src="/partner-17.png" alt="" class="img-mp" />
+            <img src="/partner-18.png" alt="" class="img-mp" />
+            <img src="/partner-19.png" alt="" class="img-mp" />
           </b-col>
           <b-col lg="12" class="d-none">
             <h4>Social Media Pages</h4>
