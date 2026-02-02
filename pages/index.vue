@@ -94,11 +94,11 @@
             <div class="box image short">
               <div
                 class="image-wrap"
-                style="background-image: url('/home-3.jpg')"
+                style="background-image: url('/project-78.jpg')"
               ></div>
               <h4>
-                Architectural, Planning, and Design<br />UIN Sultan Thaha Jambi
-                (2018)
+                Supervision & Construction Management<br />RSUP Persahabatan Rawamangun, Jakarta Timur
+                (2022-2024)
               </h4>
             </div>
           </b-col>

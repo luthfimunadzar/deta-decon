@@ -220,7 +220,7 @@ export default {
         },
         {
           id: 73,
-          nama: "Gedung dan Kawasan Mahkamah Konstitusi (MK), Lembaga Yudisial serta Masjid Kawasan Inti Otorita IKN.",
+          nama: "Gedung dan Kawasan Mahkamah Konstitusi (MK), Lembaga Yudisial serta Masjid Kawasan Inti Otorita IKN",
           year: "2026-2027",
           cat: "Architecture Design & Build",
           img: "/project-79.jpg"
