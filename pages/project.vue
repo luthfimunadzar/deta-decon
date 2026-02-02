@@ -85,7 +85,7 @@
 
     <b-container>
       <b-row>
-        <b-col md="4">
+        <b-col md="6">
           <iframe
             src="https://www.youtube.com/embed/B8suluOznjU"
             frameborder="0"
@@ -94,7 +94,7 @@
             class="video-project"
           ></iframe>
         </b-col>
-        <b-col md="4">
+        <b-col md="6">
           <iframe
             src="https://www.youtube.com/embed/BqaUuCYlsJQ"
             frameborder="0"
@@ -103,9 +103,18 @@
             class="video-project"
           ></iframe>
         </b-col>
-        <b-col md="4">
+        <b-col md="6">
           <iframe
             src="https://www.youtube.com/embed/AjWVhnk0-2w"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            class="video-project"
+          ></iframe>
+        </b-col>
+        <b-col md="6">
+          <iframe
+            src="https://www.youtube.com/embed/DdNF4iuJkXw?si=ws2yHDccvTscpNQc"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
@@ -195,6 +204,27 @@ export default {
       ],
       dataProject: [
         // old
+        {
+          id: 71,
+          nama: "Indonesia Pavilion at World Expo, Osaka, Japan",
+          year: "2024-2026",
+          cat: "Supervision & Construction Management",
+          img: "/project-77.jpg"
+        },
+        {
+          id: 72,
+          nama: "RSUP Persahabatan Rawamangun, Jakarta Timur",
+          year: "2022-2024",
+          cat: "Supervision & Construction Management",
+          img: "/project-78.jpg"
+        },
+        {
+          id: 73,
+          nama: "Gedung dan Kawasan Mahkamah Konstitusi (MK), Lembaga Yudisial serta Masjid Kawasan Inti Otorita IKN.",
+          year: "2026-2027",
+          cat: "Architecture Design & Build",
+          img: "/project-79.jpg"
+        },
         {
           id: 76,
           nama: "Pasar Raya Kota Padang",
@@ -743,7 +773,7 @@ export default {
           year: "2020",
           cat: "Construction Management",
           img: "/project-70.jpeg"
-        }
+        },
       ],
       search: ""
     };

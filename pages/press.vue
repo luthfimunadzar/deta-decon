@@ -49,7 +49,18 @@ export default {
     return {
       awards: [
         {
-          id: 16,
+          id: 17,
+          img:
+            "https://awsimages.detik.net.id/visual/2025/11/30/setelah-resmi-ditetapkan-sebagai-pusat-pemerintahan-indonesia-melalui-peraturan-presiden-nomor-79-tahun-2025-pembangunan-ibu-k-1764482424936_169.webp?w=480&q=90",
+          title:
+            "Adhi Karya dan Deta Decon Kolab Bangun Gedung MK Hingga Masjid IKN",
+          text:
+            "Konsorsium PT Adhi Karya Tbk (ADHI) - Deta KSO (Adhi Karya - Deta Decon) melakukan pengembangan beberapa infrastruktur inti di Ibu Kota ...",
+          link:
+            "https://www.cnbcindonesia.com/market/20251215091729-17-694140/adhi-karya-dan-deta-decon-kolab-bangun-gedung-mk-hingga-masjid-ikn/amp"
+        },
+        {
+          id: 17,
           img:
             "https://cdn.rri.co.id/berita/13/images/1695205682852-2/1695205682852-2.jpeg",
           title:

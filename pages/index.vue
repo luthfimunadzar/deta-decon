@@ -61,10 +61,10 @@
                 <div class="box image short">
                   <div
                     class="image-wrap"
-                    style="background-image: url('/home-2.jpg')"
+                    style="background-image: url('/project-79.jpg')"
                   ></div>
                   <h4>
-                    Management Construction<br />Gelora Bung Karno (2017-2018)
+                    Architecture Design & Build<br />Gedung dan Kawasan Mahkamah Konstitusi (MK), Lembaga Yudisial serta Masjid Kawasan Inti Otorita IKN. (2026-2027)
                   </h4>
                 </div>
               </b-col>
@@ -76,11 +76,10 @@
                 <div class="box image">
                   <div
                     class="image-wrap"
-                    style="background-image: url('/home-4.jpg')"
+                    style="background-image: url('/project-77.jpg')"
                   ></div>
                   <h4>
-                    Management Construction, Design and Build<br />Athletes
-                    Villages Kemayoran (2017-2018)
+                    Supervision & Construction Management<br /> Indonesia Pavilion at World Expo, Osaka, Japan (2024-2026)
                   </h4>
                 </div>
               </b-col>
@@ -152,6 +151,7 @@
             <img src="/client-8.jpg" alt="" class="img-mp" />
             <img src="/client-10.png" alt="" class="img-mp" />
             <img src="/client-11.jpg" alt="" class="img-mp" />
+            <img src="/client-12.jpg" alt="" class="img-mp" />
           </b-col>
           <b-col lg="4">
             <h4 class="mt-4 mt-lg-0">Media</h4>
