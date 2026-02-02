@@ -151,7 +151,6 @@
             <img src="/client-8.jpg" alt="" class="img-mp" />
             <img src="/client-10.png" alt="" class="img-mp" />
             <img src="/client-11.jpg" alt="" class="img-mp" />
-            <img src="/client-12.jpg" alt="" class="img-mp" />
           </b-col>
           <b-col lg="4">
             <h4 class="mt-4 mt-lg-0">Media</h4>
@@ -184,6 +183,7 @@
             <img src="/partner-17.png" alt="" class="img-mp" />
             <img src="/partner-18.png" alt="" class="img-mp" />
             <img src="/partner-19.png" alt="" class="img-mp" />
+            <img src="/client-12.jpg" alt="" class="img-mp" />
           </b-col>
           <b-col lg="12" class="d-none">
             <h4>Social Media Pages</h4>
